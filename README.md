@@ -61,7 +61,10 @@ Terminology
 </details>  
 
 <details>
-  <summary>Data preprocessing</summary>
+  <summary>
+    <h2>Data preprocessing</h2>
+        
+  </summary>
 ### Data preprocessing
 
 Data exploration
