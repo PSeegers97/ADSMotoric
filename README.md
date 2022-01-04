@@ -143,7 +143,7 @@ Data visualization (exploratory)
 </details>
 
 
- <h2>Communication</h2
+<h2>Communication</h2
 <details>
   <summary>
     expand me!
