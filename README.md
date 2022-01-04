@@ -15,9 +15,9 @@ For basic understanding and getting to know machine learning there were assignme
 
 
 <details>
-  
+  <summary>
     <h2>Research project</h2>
-  
+  </summary>
 
 
 Research question
