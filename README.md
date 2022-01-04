@@ -11,7 +11,7 @@ For basic understanding and getting to know machine learning there were assignme
     <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
     <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers">
     <br/><br/>
-    <figcaption><i><small>Datacamp assignments Pascal Seegers</small></i></figcaption>
+    <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
   </figure>
 </details>
   
