@@ -63,8 +63,20 @@ Data exploration
 <ul>
   <li>examine data</li>
   <li>visualize data</li>
+  <ul>
+    <li>scatter plots</li>
+    <li>missingno plots</li>
+    <li>histogram plots</li>
+    <li>t-SNE</li>
+    
+  </ul>
   <li>distributions</li>
+  
   <li>outliers</li>
+  <ul>
+    <li>missingno</li>  
+  </ul>
+  
   <li>correlation</li>
   <ul>
     <li>hypothesis</li>
@@ -74,13 +86,27 @@ Data exploration
 Data cleaning
 <ul>
   <li>clean in good & sufficient way</li>
+  <ul>
+    <li>remove features with more than 20% missing values -> too many missing values for imputation</li>
+    <li>adding MQ/BMI Score and MQ category</li>
+     <li>merge data</li>
+  </ul>
 </ul>
 
 Data preparation
 <ul>
   <li>transform data (encode etc)</li>
   <li>removing outliers</li>
+  <ul>
+    <li>remove mean + std</li>
+    <li>remove iqr method</li>
+  </ul>
   <li>imputation</li>
+  <ul>
+    <li>Mean</li>
+    <li>Median</li>
+    <li>kNN Imputation</li> 
+  </ul>
 </ul>
 
 Data explanation
