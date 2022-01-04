@@ -40,7 +40,7 @@ Planning
 </ul>
 
 <details>
-  <summary>### Domain Knowledge</summary>
+  <summary> ###Domain Knowledge</summary>
 
 Subject Field
 <ul>
@@ -58,6 +58,10 @@ Terminology
   <li>explain important & relevant terminology</li>
 </ul>
 
+</details>  
+
+<details>
+  <summary>Data preprocessing</summary>
 ### Data preprocessing
 
 Data exploration
@@ -119,8 +123,10 @@ Data visualization (exploratory)
 <ul>
   <li>visualize data for supporting models</li>
 </ul>
+</details>
 
-
+<details>
+  <summary>Communication</summary> 
 ### Communication
 
 Presentations
