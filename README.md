@@ -16,7 +16,7 @@ For basic understanding and getting to know machine learning there were assignme
 <h2>Research project</h2>
 <details>
   <summary>
-    Research
+    expand me!
   </summary>
 
 
@@ -49,10 +49,10 @@ Planning
 </details>
 
 
-
+<h2>Domain Knowledge</h2>
 <details>
   <summary>
-    <h2>Domain Knowledge</h2>
+    expand me!
   </summary>
 
 Subject Field
@@ -74,10 +74,10 @@ Terminology
 </details>  
 
 
-
+<h2>Data preprocessing</h2>
 <details>
   <summary>
-    <h2>Data preprocessing</h2>
+      expand me!
         
   </summary>
 
@@ -143,10 +143,10 @@ Data visualization (exploratory)
 </details>
 
 
-
+ <h2>Communication</h2
 <details>
   <summary>
-    <h2>Communication</h2
+    expand me!
   </summary> 
 
 Presentations
@@ -157,10 +157,10 @@ Writing paper
 </details>  
 
     
-    
+ <h2>Bibliography</h2>  
 <details>
   <summary>
-    <h2>Bibliography</h2>
+    expand me!
   </summary>
 ## Bibliography
 </details>
