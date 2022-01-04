@@ -4,12 +4,15 @@ This is the personal portfolio for the minor Applied Data Science at The Hague U
 ## Datacamp
 For basic understanding and getting to know machine learning there were assignments on Datacamp. As you can see I finished every course.
 <br/><br/>
-<figure>
-  <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
-  <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers">
-  <figcaption>Datacamp assignments Pascal Seegers</figcaption>
-</figure>
-
+<details>
+  <summary>Screenshot Datacamp Assignments</summary>
+  <figure>
+    <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
+    <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers">
+    <figcaption>Datacamp assignments Pascal Seegers</figcaption>
+  </figure>
+</details>
+  
 ## Predicting motoric skill development in young children
 
 
