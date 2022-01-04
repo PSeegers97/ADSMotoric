@@ -18,10 +18,10 @@ For basic understanding and getting to know machine learning there were assignme
 ## Predicting motoric skill development in young children
 
 
-<h3>Research project</h3>
+
 <details>
   <summary>
-    expand me!
+    Research project
   </summary>
 
 
@@ -54,10 +54,9 @@ Planning
 </details>
 
 
-<h3>Domain Knowledge</h3>
 <details>
   <summary>
-    expand me!
+    Domain Knowledge
   </summary>
 
 Subject Field
@@ -79,10 +78,9 @@ Terminology
 </details>  
 
 
-<h3>Data preprocessing</h3>
 <details>
   <summary>
-      expand me!
+      Data preprocessing
         
   </summary>
 
@@ -148,10 +146,10 @@ Data visualization (exploratory)
 </details>
 
 
-<h3>Communication</h3>
+
 <details>
   <summary>
-    expand me!
+    Communication
   </summary> 
 
 Presentations
@@ -161,10 +159,10 @@ Presentations
 Writing paper
 </details> 
 
- <h3>Bibliography</h3>  
+
 <details>
   <summary>
-    expand me!
+    Bibliography
   </summary>
 ## Bibliography
 </details>
