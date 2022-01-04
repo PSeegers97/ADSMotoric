@@ -6,9 +6,11 @@ For basic understanding and getting to know machine learning there were assignme
 <br/><br/>
 <details>
   <summary>Screenshot Datacamp Assignments</summary>
+  <br/><br/>
   <figure>
     <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
     <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers">
+    <br/><br/>
     <figcaption>Datacamp assignments Pascal Seegers</figcaption>
   </figure>
 </details>
