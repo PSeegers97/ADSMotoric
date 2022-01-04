@@ -170,6 +170,8 @@ Writing paper
 </details>
 
 ## Reflection and Evaluation
-
+### Reflection on own contribution to the project
+### Reflection on own learning objectives
+### Evaluation on the group project as a whole
     
 
