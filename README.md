@@ -6,8 +6,8 @@ For basic understanding and getting to know machine learning there were assignme
 <br/><br/>
 <figure>
   <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
-  <img src="/images/Datacamp_Screenshot.png" alt="Trulli" style="width:100%">
-  <figcaption>Datacamp Assignments</figcaption>
+  <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers">
+  <figcaptionDatacamp assignments Pascal Seegers</figcaption>
 </figure>
 
 ## Predicting motoric skill development in young children
