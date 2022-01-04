@@ -39,7 +39,8 @@ Planning
   <li>Notes</li>
 </ul>
 
-### Domain Knowledge
+<details>
+  <summary>### Domain Knowledge</summary>
 
 Subject Field
 <ul>
