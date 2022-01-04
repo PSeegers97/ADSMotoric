@@ -38,6 +38,7 @@ Planning
   <li>Scrum</li>
   <li>Notes</li>
 </ul>
+
 ### Domain Knowledge
 
 Subject Field
