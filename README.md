@@ -168,6 +168,7 @@ Writing paper
 </details>
 
 ## Reflection and Evaluation
+### STARR method
 <details>
   <summary>Reflection on own contribution to the project</summary>
 </details>
