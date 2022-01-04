@@ -1,4 +1,4 @@
-# ADSMotoric
+# Minor Applied Data Science
 This is the personal portfolio for the minor Applied Data Science at The Hague University made by Pascal Seegers.
 
 ## Datacamp
