@@ -13,10 +13,10 @@ For basic understanding and getting to know machine learning there were assignme
 ## Predicting motoric skill development in young children
 
 
-
+<h2>Research project</h2>
 <details>
   <summary>
-    <h2>Research project</h2>
+    Research
   </summary>
 
 
