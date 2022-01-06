@@ -75,7 +75,7 @@ Planning
   <figure>
     <img src="/images/Scrum_Charts.png" alt="Scrum board chart" width="300">
     <br/><br/>
-    <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
+    <figcaption><i><small>Fig. 2: Scrum board completed tasks</small></i></figcaption>
   </figure>
 </details>
 <ul>
