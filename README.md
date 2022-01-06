@@ -7,7 +7,7 @@ For basic understanding and getting to know machine learning there were assignme
 <details>
   <summary>Screenshot Datacamp Assignments</summary>
   <br/><br/>
-  <div text-align="center">
+  <div>
     <figure style="text-align: center">
       <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
       <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
