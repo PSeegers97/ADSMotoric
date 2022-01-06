@@ -74,7 +74,7 @@ Planning
   <div style="width: 80%">
     <figure>
       
-        <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks" width="80%">
+        <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks" width="300">
         <br/><br/>
         <figcaption><i><small>Fig. 2: Scrum chart board with finished/unfinished tasks</small></i></figcaption>
   </figure>
