@@ -68,13 +68,16 @@ Conclusions
 </ul>
 
 Planning
-<ul>
-  <li>Scrum</li>
+<details>
+<summary>Scrum chart board</summary>
     <figure>
         <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks">
         <br/><br/>
         <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
   </figure>
+</details>
+<ul>
+
   <li>Notes</li>
 </ul>
 
