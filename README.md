@@ -70,7 +70,7 @@ Conclusions
 Planning
 <details>
 <summary>Scrum chart board</summary>
-    <figure>
+    <figure style="width: 80%">
         <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks">
         <br/><br/>
         <figcaption><i><small>Fig. 2: Scrum chart board with finished/unfinished tasks</small></i></figcaption>
