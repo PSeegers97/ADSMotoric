@@ -19,15 +19,37 @@ For basic understanding and getting to know machine learning there were assignme
 
 
 
+
 <details>
+
   <summary>
     Research project
   </summary>
 
-
-Research question
+<div>
+    <h3>Research Question:</h3>
+    <div align="center"><h4>
+        <i>“How can data science be used to predict whether a child has a chance of developing a lack 
+            in motor skills a year later?”</i></h4>
+    </div>
+    <h4>Subquestions:</h4>
+    <div >
+        <ul style="text-align: center; list-style-position: inside">
+            <h5>
+            <li>Which biological and socio-demographic variables have an influence on the motoric skills development by children?</li>
+            <br>
+            <li>Which model has the lowest false negative rate? </li>
+            <br>
+<li>Which characteristics have the children with a lack motoric skills in common?  </li>
+            </h5>       
+</ul>
+    </div>
+</div>
 <ul>
   <li>Problem definition</li>
+    <div>
+        *children lack in physical abilities if they won't develop gross motoric skills. Children with good gross motoric skills have a more active lifestyle in their adulthood.
+    </div>
   <li>Research Question</li>
 </ul>
 
@@ -48,6 +70,11 @@ Conclusions
 Planning
 <ul>
   <li>Scrum</li>
+    <figure>
+        <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks">
+        <br/><br/>
+        <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
+  </figure>
   <li>Notes</li>
 </ul>
 
