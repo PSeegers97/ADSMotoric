@@ -71,7 +71,7 @@ Planning
 <details>
 <summary>Scrum chart board</summary>
   <br/><br/>
-  <div style="width: 80%">
+  <div>
     <figure>
       
         <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks" width="300" height="100">
