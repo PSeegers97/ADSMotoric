@@ -75,7 +75,7 @@ Planning
     <figure>
       
         <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks">
-        <br/><br/>
+        <br><br/>
         <figcaption><i><small>Fig. 2: Scrum chart board with finished/unfinished tasks</small></i></figcaption>
   </figure>
   
