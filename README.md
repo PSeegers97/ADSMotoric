@@ -73,7 +73,7 @@ Planning
   <br/><br/>
   
   <figure>
-    <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
+    <img src="/images/Scrum_Charts.png" alt="Scrum board chart" width="300">
     <br/><br/>
     <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
   </figure>
