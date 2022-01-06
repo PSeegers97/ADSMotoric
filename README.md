@@ -72,12 +72,11 @@ Planning
 <summary>Scrum chart board</summary>
   <br/><br/>
   
-    <figure>
-        <img src="/images/Scrum_Charts.png" alt="Scrum finished tasks">
-        <br>
-        <figcaption><i><small>Fig. 2: Scrum chart board with finished/unfinished tasks</small></i></figcaption>
-    </figure>
-  
+  <figure>
+    <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
+    <br/><br/>
+    <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
+  </figure>
 </details>
 <ul>
 
