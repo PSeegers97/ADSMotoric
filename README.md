@@ -7,14 +7,16 @@ For basic understanding and getting to know machine learning there were assignme
 <details>
   <summary>Screenshot Datacamp Assignments</summary>
   <br/><br/>
-  <div>
-    <figure style="text-align: center">
-      <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
-      <img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
-      <br/><br/>
-      <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
-    </figure>
-  </div>
+  
+<figure style="text-align: center">
+<div style="text-align: center">
+<!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
+<img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
+<br/><br/>
+<figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
+</div>
+</figure>
+  
 </details>
   
 ## Predicting motoric skill development in young children
