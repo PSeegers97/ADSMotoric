@@ -11,7 +11,7 @@ For basic understanding and getting to know machine learning there were assignme
 <figure style="text-align: center">
 <div style="text-align: center">
 <!-- ![Datacamp assignments Pascal Seegers](/images/Datacamp_Screenshot.png) -->
-<img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="300">
+<img src="/images/Datacamp_Screenshot.png" alt="Datacamp assignments Pascal Seegers" width="500">
 <br/><br/>
 <figcaption><i><small>Fig. 1: Datacamp assignments Pascal Seegers</small></i></figcaption>
 </div>
@@ -77,7 +77,7 @@ Planning
   <br/><br/>
   
   <figure style="text-align: center">
-    <img src="/images/Scrum_Charts.png" alt="Scrum board chart" width="300">
+    <img src="/images/Scrum_Charts.png" alt="Scrum board chart" width="500">
     <br/><br/>
     <figcaption><i><small>Fig. 2: Scrum board completed tasks</small></i></figcaption>
   </figure>
