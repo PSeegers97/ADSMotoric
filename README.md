@@ -194,7 +194,7 @@ Presentations
 </ul>
 Writing paper
 </details> 
-
+---
 
 <details>
   <summary>
