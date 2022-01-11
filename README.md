@@ -200,7 +200,6 @@ Writing paper
   <summary>
     Bibliography
   </summary>
-  ---
 ## Bibliography
 </details>
 
