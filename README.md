@@ -194,12 +194,13 @@ Presentations
 </ul>
 Writing paper
 </details> 
----
+
 
 <details>
   <summary>
     Bibliography
   </summary>
+  ---
 ## Bibliography
 </details>
 
