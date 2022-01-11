@@ -127,6 +127,11 @@ Data exploration
   <ul>
     <li>scatter plots</li>
     <li>missingno plots</li>
+    <figure style="text-align: center">
+      <img src="/images/Visualizations/T0_data_msno.pdf" alt="Missing values in raw dataset" width="500">
+      <br/><br/>
+    <figcaption><i><small>Fig. 2: Missingno plot of raw T0 data</small></i></figcaption>
+  </figure>
     <li>histogram plots</li>
     <li>t-SNE</li>
     
