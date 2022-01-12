@@ -217,18 +217,17 @@ Another approach was to merge cbs data into t0 on the zipcodes. The problem is c
 
 In the end there are 11 different dataframes:
 <ul>
-  <li>transform data (encode etc)</li>
-  <li>removing outliers</li>
-  <ul>
-    <li>remove mean + std</li>
-    <li>remove iqr method</li>
-  </ul>
-  <li>imputation</li>
-  <ul>
-    <li>Mean</li>
-    <li>Median</li>
-    <li>kNN Imputation</li> 
-  </ul>
+<li>t0</li>
+<li>t0 outlier removed by mean and using mean imputation</li>
+<li>t0 outlier removed by mean and using median imputation</li>
+<li>t0 outlier removed by mean and using knn imputation</li>
+<li>t0 mean imputed</li>
+<li>t0 median imputed</li>
+<li>t0 knn imputed</li>
+<li>t0 with zipcodes  after dropna</li>
+<li>t0 with zipcodes with mean imputation</li>
+<li>t0 with zipcodes with median imputation</li>
+<li>t0 with zipcodes with knn imputation</li>
 </ul>
 
 Data explanation
