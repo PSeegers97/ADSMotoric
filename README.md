@@ -153,7 +153,7 @@ For a first understanding of the t0 data there were different ways to properly u
 
 
 <h4>Insights</h4>
-Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). [The Insights can be found here LINK TO CLEANING DATA]
+Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE).
 
 
 [The Insights can be found here. LINK TO CLEANING DATA](Notebooks)
@@ -235,7 +235,9 @@ Features with a no variance have been dropped as they won't have an impact on th
 
 <h4>Merging</h4>
   <br/>
-In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe. It has been done by [the formula](###Terminology). 
+In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe. It has been done by 
+
+[the formula](###Terminology). 
 
 For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
 
