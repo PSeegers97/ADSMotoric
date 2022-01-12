@@ -230,6 +230,18 @@ In the end there are 11 different dataframes:
 <li>t0 with zipcodes with knn imputation</li>
 </ul>
 
+After merging the NaN values had to be dropped because models can't calculate with a NaN value. That led t0 to 1271 rows and 32 columns. 
+
+
+Imputation
+The missing values in the dataframes have been treated with different approaches. First of all if a feature has less than 80% data the feature has been dropped as the imputation methods might create "big" patterns in the dataframes which has to be avoided to answer the research question adequate and to be valid. 
+
+One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute. 
+
+
+For overfitting prevention there are also two different "tasks". The first one is a binary classification problem (ADD MQ BINARY TO MERGING) and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
+
+
 Data explanation
 <ul>
   <li>describe dataset</li>
