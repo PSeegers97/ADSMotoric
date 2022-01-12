@@ -77,7 +77,7 @@ During the research for our project we found out that the perceived motor compet
 </ul>
 
 <h3>Planning</h3>
-In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
+In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure 2. 
 <br/><br/>
 <details>
 <summary>Scrum chart board</summary>
@@ -112,14 +112,6 @@ Motor skills development begins right after birth (see verywellfamily.com) and i
 Our study takes self-perception into account but research shows that the self-perception isn't accurate until the age of eight. 
 
 Another research states that not only the exercising part is important but also e.g. sleeping time. Thus there aren't only variables we can see directly in physical education or in exercising but also variables teachers/researchers can't see but have to ask the parents. 
-
-<h3>Literature Research</h3>
-
-  <br/>
-<ul>
-  <li>relevant research</li>
-  <li>References & Bibliography</li>
-</ul>
 
 <h3>Terminology</h3>
   <br>
@@ -166,6 +158,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 
 [The Insights can be found here. LINK TO CLEANING DATA](Notebooks)
 
+<i><small>Table 1: Small insights in all collected data</small></i>
 
 |  Dataframe |  Size |  Shape |
 |---|---|---|
@@ -177,6 +170,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 |  CBS gender age |  513576 rows, 7 columns |  3595032 |
 |  CBS income |  25032 rows, 22 columns |  55074 |
 |  CBS migration background |  512576 rows, 7 columns |  3595032 |
+
 
 <ul>
   <li>examine data</li>
@@ -223,7 +217,7 @@ As the visualizations and the insights showed us t0 has a few outliers which hav
 
 But the IQR method isn't appropriate for this study as there are features with a low variance and thus the IQR method removes valuable children (SHOW IQR OUTPUT) with a bad motor skill. That happens because the lower quartile has too high values. The IQR method wasn't pursued after discovering this. 
 
-
+<i><small>Table 2: t0 shapes and sizes after outlier removal and imputation</small></i>
 
 | Dataframe  |  Shape |  Size |
 |---|---|---|
@@ -241,7 +235,7 @@ Features with a no variance have been dropped as they won't have an impact on th
 
 <h4>Merging</h4>
   <br/>
-In t0 and t1/t1 eindhoven there were no MQ score, MQ category and BMI category. These columns must be calculated and added to their dataframe. It has been done by the formula (REFERENCE TO DOMAIN KNOWLEDGE). 
+In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe. It has been done by [the formula](###Terminology). 
 
 For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
 
@@ -280,6 +274,8 @@ For overfitting prevention there are also two different "tasks". The first one i
 <h3>Data explanation</h3>
   <br/>
 In the data preparation part it has been discovered that the data is not perfect for machine learning as there is not much variety in it as well as too much veracity in a few dataframes e.g. questionaire data. The questionaire data also has not much volume as this dataframe ends up after merging with t0 and dropping nan values with 37 rows. 
+
+A special case is the t1 Eindhoven data as this has 2649 rows and 51 columns. After running the function `printDataframeInsights` it has been discovered that in this dataset is the t0 and t1 data in one file. There are features in this dataset which are only for t0 that also explains why there are compared to t0 too many features. But with the column **Perioden** the t1 data can be filtered and extracted into another dataframe.
 
 <h3>Data visualization (exploratory)</h3>
   <br/>
