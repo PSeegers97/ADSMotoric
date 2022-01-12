@@ -123,8 +123,10 @@ Another research states that not only the exercising part is important but also 
 **AST-2**: Athletic Skill Test 2, Test from the research Hoeboer
 
 **MQ-Score**: Motor Quotient score calculated by: 
-(percentile / AST-Time) *100 <br>
+(percentile / AST-Time) *100 <br> (the percentile can be found in )
 **MQ-category**: classification of childs motor skill with the MQ-score
+**MQ-category binary**: simplified classification of childs motor skill with the MQ-category &#8594; MQ-category below 3 is classified as bad all above as good
+
 <hr>
 </details>  
 
@@ -150,6 +152,21 @@ For a first understanding of the t0 data there were different ways to properly u
 
 [The visualization notebooks can be found here.](Notebooks/Visualizations)
 
+
+<div style="text-align: center">
+<img src="/images/age-bmi.png" alt="Scatter plot of t0 with x: age and y: bmi" width="500">
+<br/><br/>
+<figcaption><i><small>Fig. 3: Scatter plot of t0 with outliers (x-axis:age, y-axis:BMI)</small></i></figcaption>
+</div>
+
+<div style="text-align: center">
+<img src="/images/Age-ast.png" alt="Scatter plot of t0 with x: age and y: AST-Time" width="500">
+<br/><br/>
+<figcaption><i><small>Fig. 4: Scatter plot of t0 with outliers (x-axis: age, y-axis: AST-Time)</small></i></figcaption>
+</div>
+
+
+In figure 4 it can be seen that there is a correlation between these two feature. This can be ignored as the MQ-score gets calculated by these two. 
 
 
 <h4>Insights</h4>
@@ -205,7 +222,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 
 [The data preprocessing notebook can be found here. ADD LINK](Notebooks)
 
-The dataframes are from now on mentioned as their dataframe name.
+The dataframes are from now on mentioned as their dataframe name.[1]
 
 
 
@@ -238,6 +255,7 @@ Features with a no variance have been dropped as they won't have an impact on th
 In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe.  
 
 It has been done by [the formula](###Terminology). 
+The MQ category and BMI category has been calculated using [this logic](Logic/Syntax%20in%20word%20for%20students.docx)
 
 For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
 
@@ -308,26 +326,26 @@ We decided as a group that everybody works on the paper and therefore I wrote to
   <summary>
     Bibliography
   </summary>
-  <ul>
-<li>Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.</li>
-<li>Monika Haga, Physical Fitness in Children With High Motor Competence Is Different From That in Children With Low Motor Competence, Physical Therapy, Volume 89, Issue 10, 1 October 2009, Pages 1089–1097, https://doi.org/10.2522/ptj.20090052</li>
-<li>Khodaverdi, Z., Bahram, A., Khalaji, H., & Kazemnejad, A. (2013). Motor Skill Competence and Perceived Motor Competence: Which Best Predicts Physical Activity among Girls?. Iranian journal of public health, 42(10), 1145–1150.</li>
-<li>Morano, M., Bortoli, L., Ruiz, M. C., Campanozzi, A., & Robazza, C. (2020). Actual and perceived motor competence: Are children accurate in their perceptions?. PloS one, 15(5), e0233190. https://doi.org/10.1371/journal.pone.0233190</li>
-<li>Hoeboer, J., Ongena, G., Krijger-Hombergen, M., Stolk, E., Savelsbergh, G., & de Vries, S. I. (2018). The Athletic Skills Track: Age- and gender-related normative values of a motor skills test for 4- to 12-year-old children. Journal of science and medicine in sport, 21(9), 975–979.</li>
-<li>Luft, A.R., Buitrago, M.M. Stages of motor skill learning. Mol Neurobiol 32, 205–216 (2005). https://doi.org/10.1385/MN:32:3:205</li>
-<li>Jan P. Piek, Grant B. Baynam, Nicholas C. Barrett,
+
+* Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.
+* Monika Haga, Physical Fitness in Children With High Motor Competence Is Different From That in Children With Low Motor Competence, Physical Therapy, Volume 89, Issue 10, 1 October 2009, Pages 1089–1097, https://doi.org/10.2522/ptj.20090052
+* Khodaverdi, Z., Bahram, A., Khalaji, H., & Kazemnejad, A. (2013). Motor Skill Competence and Perceived Motor Competence: Which Best Predicts Physical Activity among Girls?. Iranian journal of public health, 42(10), 1145–1150.
+* Morano, M., Bortoli, L., Ruiz, M. C., Campanozzi, A., & Robazza, C. (2020). Actual and perceived motor competence: Are children accurate in their perceptions?. PloS one, 15(5), e0233190. https://doi.org/10.1371/journal.pone.0233190
+* Hoeboer, J., Ongena, G., Krijger-Hombergen, M., Stolk, E., Savelsbergh, G., & de Vries, S. I. (2018). The Athletic Skills Track: Age- and gender-related normative values of a motor skills test for 4- to 12-year-old children. Journal of science and medicine in sport, 21(9), 975–979.
+* Luft, A.R., Buitrago, M.M. Stages of motor skill learning. Mol Neurobiol 32, 205–216 (2005). https://doi.org/10.1385/MN:32:3:205
+* Jan P. Piek, Grant B. Baynam, Nicholas C. Barrett,
 The relationship between fine and gross motor ability, self-perceptions and self-worth in children and adolescents,
-Human Movement Science, Volume 25, Issue 1, 2006, Pages 65-75, ISSN 0167-9457, https://doi.org/10.1016/j.humov.2005.10.011</li>
-<li>Ilse Gentier, Eva D’Hondt, Sarah Shultz, Benedicte Deforche, Mireille Augustijn, Sofie Hoorne, Katja Verlaecke, Ilse De Bourdeaudhuij, Matthieu Lenoir,
-Fine and gross motor skills differ between healthy-weight and obese children, Research in Developmental Disabilities, Volume 34, Issue 11, 2013, Pages 4043-4051, ISSN 0891-4222, https://doi.org/10.1016/j.ridd.2013.08.040</li>
-<li>Aurlien Gron. 2017. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st. ed.). O'Reilly Media, Inc.</li>
+Human Movement Science, Volume 25, Issue 1, 2006, Pages 65-75, ISSN 0167-9457, https://doi.org/10.1016/j.humov.2005.10.011
+* Ilse Gentier, Eva D’Hondt, Sarah Shultz, Benedicte Deforche, Mireille Augustijn, Sofie Hoorne, Katja Verlaecke, Ilse De Bourdeaudhuij, Matthieu Lenoir,
+Fine and gross motor skills differ between healthy-weight and obese children, Research in Developmental Disabilities, Volume 34, Issue 11, 2013, Pages 4043-4051, ISSN 0891-4222, https://doi.org/10.1016/j.ridd.2013.08.040
+* Aurlien Gron. 2017. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st. ed.). O'Reilly Media, Inc.
 
 
 
 
-<li>Alles over Sport. (n.d.). Start (V)aardig. Allesoversport.nl., from https://www.allesoversport.nl/startvaardig/ </li>
-<li>https://www.verywellfamily.com/what-are-motor-skills-3107058</li>
-</ul>
+* Alles over Sport. (n.d.). Start (V)aardig. Allesoversport.nl., from https://www.allesoversport.nl/startvaardig/
+[1]https://www.verywellfamily.com/what-are-motor-skills-3107058
+
 </details>
 
 ## Reflection and Evaluation
