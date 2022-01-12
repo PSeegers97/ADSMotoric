@@ -78,7 +78,7 @@ NEEDS TO BE WRITTEN
 
 <h3>Planning</h3>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
-<br/>
+<br/><br/>
 <details>
 <summary>Scrum chart board</summary>
   <br/>
@@ -91,7 +91,7 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
 </details>
 <ul>
 
-  <li>Notes</li>
+  <li>Notes?</li>
 </ul>
 <hr>
 </details>
@@ -152,12 +152,12 @@ First of all the used/inspected datasets are t0 data, school postcodes from Rott
 The t0 data is a csv file which has been loaded in form of a pandas dataframe with the function "read_csv" for the t0 data the separator has to be specified as a ; has been used as the separator. The same applies to the cbs data, postcode data and t1 data. Only the questionaires are an excel file which has been loaded with the pandas function "read_excel". After running the insights function it clearly showed that the dataframes have been loaded correctly. 
 
 <h4>Visualizations</h4>
-For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. 
+For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. [The visualization notebooks can be found here](/Notebooks/Visualizations)
 
 
 
 <h4>Insights</h4>
-Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). 
+Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). [The Insights can be found here LINK TO CLEANING DATA](https://www.google.com)
 
 |  Dataframe |  Size |  Shape |
 |---|---|---|
@@ -199,7 +199,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 </ul>
 
 <h3>Data preparation & cleaning </h3>
-
+[The data preprocessing notebook can be found here](/Notebooks/)
 
 The dataframes are from now on mentioned as their dataframe name.
 
@@ -271,7 +271,7 @@ In the data preparation part it has been discovered that the data is not perfect
 
 <h3>Data visualization (exploratory)</h3>
   <br/>
-To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
+To find some similarities in the t0 dataset a t-SNE has been plotted. [ Here are the plots with different t-SNE parameters.](/Notebooks/Visualizations/t-SNE_visualizations.ipynb) After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered. 
 <hr>
 </details>
 
