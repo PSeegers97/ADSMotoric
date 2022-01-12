@@ -55,7 +55,7 @@ For basic understanding and getting to know machine learning there were assignme
     </div>
 </div>
 
-
+---
 
 Evaluation
 
