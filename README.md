@@ -180,16 +180,6 @@ Another step to understand the t0 data was to print all summaries in the noteboo
   </ul>
 </ul>
 
-Data cleaning
-<ul>
-  <li>clean in good & sufficient way</li>
-  <ul>
-    <li>remove features with more than 20% missing values -> too many missing values for imputation</li>
-    <li>adding MQ/BMI Score and MQ category</li>
-     <li>merge data</li>
-  </ul>
-</ul>
-
 Data preparation
 <ul>
   <li>transform data (encode etc)</li>
