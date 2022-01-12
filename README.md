@@ -122,15 +122,15 @@ Another research states that not only the exercising part is important but also 
 </ul>
 
 <h3>Terminology</h3>
-  <br/>
+  <br>
 
 **Fine-motor skills**: hand-eye coordination e.g. drawing
 **Gross-Motor skills**: large muscle group coordination e.g. walking, running, jumping
 
-**AST-1**: Athletic Skill Test 1, Test from the research Hoeboer
+**AST-1**: Athletic Skill Test 1, Test from the research Hoeboer <br>
 **AST-2**: Athletic Skill Test 2, Test from the research Hoeboer
 
-**MQ-Score**: Motor Quotient score calculated by 
+**MQ-Score**: Motor Quotient score calculated by: 
 (percentile / AST-Time) *100 
 
 **MQ-category**: classification of childs motor skill with the MQ-score
