@@ -102,10 +102,14 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
     Domain Knowledge
   </summary>
 
-Subject Field
-<ul>
-  <li>introduction to subject field</li>
-</ul>
+Subject Field (UNFINISHED)
+Motor skills in general are used in every day life and we practice those skills everyday by walking, bicycling, drawing or writing. But we differ motor skills into two major motor skills. First there is the fine motor skills which include skills like drawing, writing etc. so hand-eye coordination in general. Second there is the gross motor skills on which this study focuses. These include for example walking, running, jumping or bicycling. That's why motor skills are important for survival. 
+
+Motor skills development begins right after birth (see verywellfamily.com) and is a never ending learning process (see study where it says staged process). These skills improve in school age and going to school helps improving them. Research has shown that motor skills have a greater impact than originally known. Motor skills have a great impact on their adolescent and adulthood as children with good motor skills tend to live a healthier life with a lower weight(SOURCE), lower risk of illnesses and overall have a better self-perception. Another important point is that they enjoy sports more. One major problem which research has shown is that children with good motor skills tend to improve their motor skills faster at some point than children with bad motor skills. The rift between children with bad motor skills and children with good motor skills broadens during the growing up. 
+
+Our study takes self-perception into account but research shows that the self-perception isn't accurate until the age of eight. 
+
+Another research states that not only the exercising part is important but also e.g. sleeping time. Thus there aren't only variables we can see directly in physical education or in exercising but also variables teachers/researchers can't see but have to ask the parents. 
 
 Literature Research
 <ul>
