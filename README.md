@@ -237,8 +237,7 @@ For encoding of the categorical features the LabelEncoder has been used.
 <h4>Feature selection</h4>
   <br/>
 Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with $${\chi}^2$$ and selected the 5 best features. 
-
-![equation](https://latex.codecogs.com/gif.image?%5Cdpi%7B110%7D%20%7B%5Cchi%7D%5E2%20)
+<img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;{\chi}^2&space;" title="\bg_white {\chi}^2 " />
 
 <h4>Merging</h4>
   <br/>
