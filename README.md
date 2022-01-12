@@ -49,13 +49,13 @@ For basic understanding and getting to know machine learning there were assignme
 </ul>
     </div>
 </div>
-<ul>
-  <li>Problem definition</li>
+
+  <h4>Problem definition</h4>
     <div>
         *children lack in physical abilities if they won't develop gross motoric skills. Children with good gross motoric skills have a more active lifestyle in their adulthood.
+        
     </div>
-  <li>Research Question</li>
-</ul>
+  <h4>Research Question</h4>
 
 Evaluation
 <ul>
