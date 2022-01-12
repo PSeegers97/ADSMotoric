@@ -246,9 +246,7 @@ Data explanation
 In the data preparation part it has been discovered that the data is not perfect for machine learning as there is not much variety in it as well as too much veracity in a few dataframes e.g. questionaire data. The questionaire data also has not much volume as this dataframe ends up after merging with t0 and dropping nan values with 37 rows. 
 
 Data visualization (exploratory)
-<ul>
-  <li>visualize data for supporting models</li>
-</ul>
+To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
 </details>
 
 
