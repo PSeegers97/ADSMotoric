@@ -288,10 +288,10 @@ I participated in a few presentations and prepared the presentations with the ot
 <h3>Writing paper</h3>
   <br/><br/>
 We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it. 
-
+---
 </details> 
 
----
+
 <details>
   <summary>
     Bibliography
