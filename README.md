@@ -102,7 +102,8 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
     Domain Knowledge
   </summary>
 
-Subject Field (UNFINISHED)
+<h3>Subject Field (UNFINISHED)</h3>
+
   <br/><br/>
 Motor skills in general are used in every day life and we practice those skills everyday by walking, bicycling, drawing or writing. But we differ motor skills into two major motor skills. First there is the fine motor skills which include skills like drawing, writing etc. so hand-eye coordination in general. Second there is the gross motor skills on which this study focuses. These include for example walking, running, jumping or bicycling. That's why motor skills are important for survival. 
 
@@ -112,14 +113,15 @@ Our study takes self-perception into account but research shows that the self-pe
 
 Another research states that not only the exercising part is important but also e.g. sleeping time. Thus there aren't only variables we can see directly in physical education or in exercising but also variables teachers/researchers can't see but have to ask the parents. 
 
-Literature Research
+<h3>Literature Research</h3>
+
   <br/><br/>
 <ul>
   <li>relevant research</li>
   <li>References & Bibliography</li>
 </ul>
 
-Terminology
+<h3>Terminology</h3>
   <br/><br/>
 Fine-motor skills = hand-eye coordination e.g. drawing
 Gross-Motor skills = large muscle group coordination e.g. walking, running, jumping
@@ -141,20 +143,20 @@ MQ-category = classification of childs motor skill with the MQ-score
         
   </summary>
 
-Data exploration
+<h3>Data exploration</h3>
   <br/><br/>
 
 First of all the used/inspected datasets are t0 data, school postcodes from Rotterdam, Den Haag and Groningen, parental questionaire data, t1 data which is separated in data from The Hague University of Applied Sciences and Eindhoven and cbs data for gender and age, for migration background, income and core numbers. 
 
-Data loading
+<h4>Data loading</h4>
 The t0 data is a csv file which has been loaded in form of a pandas dataframe with the function "read_csv" for the t0 data the separator has to be specified as a ; has been used as the separator. The same applies to the cbs data, postcode data and t1 data. Only the questionaires are an excel file which has been loaded with the pandas function "read_excel". After running the insights function it clearly showed that the dataframes have been loaded correctly. 
 
-Visualizations
+<h4>Visualizations</h4>
 For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. 
 
 
 
-Insights
+Insights</h4>
 Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). 
 
 |  Dataframe |  Size |  Shape |
@@ -196,12 +198,12 @@ Another step to understand the t0 data was to print all summaries in the noteboo
   </ul>
 </ul>
 
-Data preparation
+<h3>Data preparation & cleaning </h3>
 
 
 The dataframes are from now on mentioned as their dataframe name.
 
-Cleaning
+<h4>Cleaning</h4>
   <br/><br/>
 One part of data preparation is the data cleaning where outliers are removed and categorical data gets encoded. 
 
@@ -220,12 +222,12 @@ But the IQR method isn't appropriate for this study as there are features with a
 
 For encoding of the categorical features the LabelEncoder has been used. 
 
-Feature selection
+<h4>Feature selection</h4>
   <br/><br/>
 Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
 
 
-Merging
+<h4>Merging</h4>
   <br/><br/>
 In t0 and t1/t1 eindhoven there were no MQ score, MQ category and BMI category. These columns must be calculated and added to their dataframe. It has been done by the formula (REFERENCE TO DOMAIN KNOWLEDGE). 
 
@@ -253,7 +255,7 @@ In the end there are 11 different dataframes:
 After merging the NaN values had to be dropped because models can't calculate with a NaN value. That led t0 to 1271 rows and 32 columns. 
 
 
-Imputation
+<h4>Imputation</h4>
   <br/><br/>
 The missing values in the dataframes have been treated with different approaches. First of all if a feature has less than 80% data the feature has been dropped as the imputation methods might create "big" patterns in the dataframes which has to be avoided to answer the research question adequate and to be valid. 
 
@@ -263,11 +265,11 @@ One approach is the imputation using the mean of the features, another one is us
 For overfitting prevention there are also two different "tasks". The first one is a binary classification problem (ADD MQ BINARY TO MERGING) and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
 
 
-Data explanation
+<h3>Data explanation</h3>
   <br/><br/>
 In the data preparation part it has been discovered that the data is not perfect for machine learning as there is not much variety in it as well as too much veracity in a few dataframes e.g. questionaire data. The questionaire data also has not much volume as this dataframe ends up after merging with t0 and dropping nan values with 37 rows. 
 
-Data visualization (exploratory)
+<h3>Data visualization (exploratory)</h3>
   <br/><br/>
 To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
 </details>
@@ -279,11 +281,11 @@ To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK
     Communication
   </summary> 
 
-Presentations
+<h3>Presentations</h3>
   <br/><br/>
 I participated in a few presentations and prepared the presentations with the other group members. I presented the second external presentation as well as the internal presentation 5 and the learning lab. 
 
-Writing paper
+<h3>Writing paper</h3>
   <br/><br/>
 We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it. 
 
