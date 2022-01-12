@@ -136,7 +136,7 @@ MQ-category = classification of childs motor skill with the MQ-score
 <hr>
 </details>  
 
-
+[The visualization notebooks can be found here]:(Notebooks/Visualizations)
 <details>
   <summary>
       Data preprocessing
@@ -155,7 +155,7 @@ The t0 data is a csv file which has been loaded in form of a pandas dataframe wi
 For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. 
 The visualization notebooks can be found here <Notebooks/Visualizations>
 
-The visualization notebooks can be found here:(Notebooks/Visualizations)
+
 
 <h4>Insights</h4>
 Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). [The Insights can be found here LINK TO CLEANING DATA]
