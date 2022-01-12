@@ -131,8 +131,7 @@ Another research states that not only the exercising part is important but also 
 **AST-2**: Athletic Skill Test 2, Test from the research Hoeboer
 
 **MQ-Score**: Motor Quotient score calculated by: 
-(percentile / AST-Time) *100 
-
+(percentile / AST-Time) *100 <br>
 **MQ-category**: classification of childs motor skill with the MQ-score
 <hr>
 </details>  
@@ -237,7 +236,7 @@ For encoding of the categorical features the LabelEncoder has been used.
 
 <h4>Feature selection</h4>
   <br/>
-Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with $chi^2$ and selected the 5 best features. 
+Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with \chi^2 and selected the 5 best features. 
 
 
 <h4>Merging</h4>
