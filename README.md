@@ -181,6 +181,41 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 </ul>
 
 Data preparation
+
+The dataframes are from now on mentioned as their dataframe name.
+
+Cleaning
+One part of data preparation is the data cleaning where outliers are removed and categorical data gets encoded. 
+
+As the visualizations and the insights showed us t0 has a few outliers which have to be removed. E.g. one outlier is a child with a BMI of 7113 which isn't possible as a human. Therefore the two approaches mean and standard deviation method and the iqr method are compared. 
+
+But the IQR method isn't appropriate for this study as there are features with a low variance and thus the IQR method removes valuable children (SHOW IQR OUTPUT) with a bad motor skill. That happens because the lower quartile has too high values. The IQR method wasn't pursued after discovering this. 
+
+
+
+| Dataframe  |  Shape |  Size |
+|---|---|---|
+|  t0 | 1271 rows, 32 columns  |  40672 |
+|  t0 after outlier removal and imputation |  1697 rows, 32 columns |  54304 |
+|  t0 with postcodes after imputation |  1271 rows, 34 columns |  43214 |
+
+
+For encoding of the categorical features the LabelEncoder has been used. 
+
+Feature selection
+Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
+
+
+Merging
+In t0 and t1/t1 eindhoven there were no MQ score, MQ category and BMI category. These columns must be calculated and added to their dataframe. It has been done by the formula (REFERENCE TO DOMAIN KNOWLEDGE). 
+
+For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
+
+There was also an approach to add the questionaire data to t0 but after dropping all nan values the dataframe had only 37 rows which is too few for machine learning. t0 and questionaire data combined had too many holes therefore this approach has been stopped and dropped. 
+
+Another approach was to merge cbs data into t0 on the zipcodes. The problem is cbs data is very complex and the zipcodes in t0 have a one-to-one relationship while the zipcodes in cbs have a one-to-many relationship. For merging a dictionary containing a zipcode as a key and their dataframe as their value has been created. But there wasn't a solution to flatten these dataframes into a one-to-one relationship. It could have been done by hand but there wasn't enough time for this approach. So this approach has been dropped. 
+
+In the end there are 11 different dataframes:
 <ul>
   <li>transform data (encode etc)</li>
   <li>removing outliers</li>
