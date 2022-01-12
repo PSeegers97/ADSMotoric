@@ -66,6 +66,9 @@ During the research for our project we found out that the perceived motor compet
 </ul>
 
 Conclusions
+
+
+NEEDS TO BE WRITTEN 
 <ul>
   <li>discuss results</li>
   <ul>
