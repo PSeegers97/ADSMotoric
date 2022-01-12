@@ -93,9 +93,9 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
 
   <li>Notes</li>
 </ul>
-
+<hr>
 </details>
----
+
 
 <details>
   <summary>
@@ -133,9 +133,9 @@ MQ-Score = Motor Quotient score calculated by
 (percentile / AST-Time) *100 
 
 MQ-category = classification of childs motor skill with the MQ-score
-
+<hr>
 </details>  
----
+
 
 <details>
   <summary>
@@ -272,9 +272,10 @@ In the data preparation part it has been discovered that the data is not perfect
 <h3>Data visualization (exploratory)</h3>
   <br/><br/>
 To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
+<hr>
 </details>
 
----
+
 
 <details>
   <summary>
@@ -320,22 +321,27 @@ Fine and gross motor skills differ between healthy-weight and obese children, Re
 
 <details>
   <summary>Reflection on own contribution to the project</summary>
-  In our group project we didn't have any specific roles. But we decided to do a stand up every weekday in the morning. In these meetings my role was to take notes on our tasks, goals, etc and also to inform the members which couldn't attend the meetings. Therefore we all knew what our goals were and knew where what our progress is at that moment. I learned to communicate more clearly and describe goals, tasks and so on more clearly. 
+  <br/><br/>
+In our group project we didn't have any specific roles. But we decided to do a stand up every weekday in the morning. In these meetings my role was to take notes on our tasks, goals, etc and also to inform the members which couldn't attend the meetings. Therefore we all knew what our goals were and knew where what our progress is at that moment. I learned to communicate more clearly and describe goals, tasks and so on more clearly. 
 One major problem was our t0 dataset. The first data preparation team tried to merge every data in one single file. So in one datafile there should be t0 data, questionaire data from the parents and cbs data. As nobody tested the dataset or took a deeper look into it we worked with this dataset for one to two months. After this time I discovered that there was information missing and also not consistent information. During merging cbs data with our t0 data there was data from the cbs data dropped. That happened because cbs data is more complex. We tried to merge the cbs data on the zipcodes but the zipcodes in our t0 dataset has a one-to-one relationship while the zipcodes in the cbs data has a one-to-many relationship. After I discovered that I tried to go back to the beginning so to data preparation but there wasn't much time left so I decided to drop the cbs data and focus on other things and take a look into it if we still have time. Since then I learned to test more and more and not assume that everything works perfectly. 
 
 Another role for me was after we discovered that our dataset was corrupted during cleaning to take a look into the cleaning again. As well as get a very good overview on the data in general. My task was to prepare the data therefore I tried to make a few different versions with different outlier handling and imputation methods. Our goal was to make a working prototype for our problem owner which can be used in the future. Therefore I tried to cover every single case for t0 data as well as t1 data. (Mehr informationen nötig).
 As we discovered the mistakes in our dataset very late (begin/middle of december) I needed time. Because of my thinking "What if" the cleaning took too long and I tried to pursue a too perfectionist approach as I tried to make one single pipeline for t0 and t1 data which wasn't really possible as there were a few different columns in the t1 data. The data preparation was finished after two weeks because of many errors in the dataset as well as my perfectionism. But this time was precious and at that point we lost too much time with our preparation as we had to hand in our project three to four weeks later. However during this I learned that I should follow a simpler strategy (which I did after one week) and also to not pursue perfectionism but a working example. 
+<hr>
 </details>
 
 <details>
   <summary>Reflection on own learning objectives</summary>
+  <br/><br/>
   In this study I wanted to get to know to machine learning and learn the basics in machine learning. As well as see if this might be a direction of work for me in the future. In the beginning there was very much information and an information overload for me which made it hard for me to understand how machine learning works. That's why I choose to read the book "Hands-on Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build Intelligent Systems". At the beginning it didn't help much as there was still a information overload. But after trying some things in our group project I understood more and more. Adding to this I asked a friend of mine who already worked with machine learning which helped a lot. The outcome of this all was that I understood machine learning more and more which lead to an ever changing project code and approach. In the end it all clicked and makes sense. I understand the basics of machine learning now when to do which steps and why doing these steps is important. The information overload was very hard for me in the beginning but as I absorbed more and more information through different sources I learned to use these sources and how to use these sources. 
 
 Another learning objective for me was the project planning. As I never had an interdisciplinary study/course with people not from programming in general I never knew how to work in a "work environment" and how to explain functions to not developers. Therefore one of my tasks was to explain functions or developing in general more clearly to not developers. I did this and asked the person afterwards what they think I meant. Also what they think the outcome will look like and compared this to my thoughts/results from these questions. If they aligned I could assume that they understood what I meant. Sometimes the developers understood my points but the non developers didn't and they looked confused after my explanations. After this I noticed that my thoughts are very specific and that it was hard to explain things easy and short. That's how I learned to express myself more precise and simpler. As well as trying to understand the thinking process of other non developers more. I learned also that I sometimes assume things which shouldn't be assumed and that I needed to ask myself and the other members more questions. 
+<hr>
 </details>
 
 <details>
   <summary>Evaluation on the group project as a whole (NEEDS IMPROVEMENT)</summary>
+  <br/><br/>
   The group in general was a good group although we weren't all developers. That led to the fact that we sometimes got stuck. One problem was that we had to explain in detail what our steps were and what some code snippet does. Another point is that non-developers tried to do very hard tasks e.g. data preparation which led to a "wrong" dataset as this wasn't tested neither by other group members nor by me. So after we discovered that there were mistakes we had to begin at the start again. Now I know that I should test more and that cross-testing is mandatory for hard tasks. Also that clear and precise communication is the key to a good group project. (not finished)
 
 All in all was it a good group project as we had a good problem management and discussed many things in our group. When somebody had a problem we asked each other if somebody has a solution or could help and pair program. Therefore we could solve almost all problems and if it took too much time we did it separately and tried to absorb as much information as possible. In the end somebody always had a solution for our problem. 
