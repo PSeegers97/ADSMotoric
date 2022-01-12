@@ -78,14 +78,14 @@ NEEDS TO BE WRITTEN
 
 <h3>Planning</h3>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
-<br/><br/>
+<br/>
 <details>
 <summary>Scrum chart board</summary>
-  <br/><br/>
+  <br/>
   
   <figure style="text-align: center">
     <img src="/images/Scrum_Charts.png" alt="Scrum board chart" width="500">
-    <br/><br/>
+    <br/>
     <figcaption><i><small>Fig. 2: Scrum board completed tasks</small></i></figcaption>
   </figure>
 </details>
@@ -104,7 +104,7 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
 
 <h3>Subject Field (UNFINISHED)</h3>
 
-  <br/><br/>
+  <br/>
 Motor skills in general are used in every day life and we practice those skills everyday by walking, bicycling, drawing or writing. But we differ motor skills into two major motor skills. First there is the fine motor skills which include skills like drawing, writing etc. so hand-eye coordination in general. Second there is the gross motor skills on which this study focuses. These include for example walking, running, jumping or bicycling. That's why motor skills are important for survival. 
 
 Motor skills development begins right after birth (see verywellfamily.com) and is a never ending learning process (see study where it says staged process). These skills improve in school age and going to school helps improving them. Research has shown that motor skills have a greater impact than originally known. Motor skills have a great impact on their adolescent and adulthood as children with good motor skills tend to live a healthier life with a lower weight(SOURCE), lower risk of illnesses and overall have a better self-perception. Another important point is that they enjoy sports more. One major problem which research has shown is that children with good motor skills tend to improve their motor skills faster at some point than children with bad motor skills. The rift between children with bad motor skills and children with good motor skills broadens during the growing up. 
@@ -115,14 +115,14 @@ Another research states that not only the exercising part is important but also 
 
 <h3>Literature Research</h3>
 
-  <br/><br/>
+  <br/>
 <ul>
   <li>relevant research</li>
   <li>References & Bibliography</li>
 </ul>
 
 <h3>Terminology</h3>
-  <br/><br/>
+  <br/>
 Fine-motor skills = hand-eye coordination e.g. drawing
 Gross-Motor skills = large muscle group coordination e.g. walking, running, jumping
 
@@ -144,7 +144,7 @@ MQ-category = classification of childs motor skill with the MQ-score
   </summary>
 
 <h3>Data exploration</h3>
-  <br/><br/>
+  <br/>
 
 First of all the used/inspected datasets are t0 data, school postcodes from Rotterdam, Den Haag and Groningen, parental questionaire data, t1 data which is separated in data from The Hague University of Applied Sciences and Eindhoven and cbs data for gender and age, for migration background, income and core numbers. 
 
@@ -156,7 +156,7 @@ For a first understanding of the t0 data there were different ways to properly u
 
 
 
-Insights</h4>
+<h4>Insights</h4>
 Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE). 
 
 |  Dataframe |  Size |  Shape |
@@ -204,7 +204,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 The dataframes are from now on mentioned as their dataframe name.
 
 <h4>Cleaning</h4>
-  <br/><br/>
+  <br/>
 One part of data preparation is the data cleaning where outliers are removed and categorical data gets encoded. 
 
 As the visualizations and the insights showed us t0 has a few outliers which have to be removed. E.g. one outlier is a child with a BMI of 7113 which isn't possible as a human. Therefore the two approaches mean and standard deviation method and the iqr method are compared. 
@@ -223,12 +223,12 @@ But the IQR method isn't appropriate for this study as there are features with a
 For encoding of the categorical features the LabelEncoder has been used. 
 
 <h4>Feature selection</h4>
-  <br/><br/>
+  <br/>
 Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
 
 
 <h4>Merging</h4>
-  <br/><br/>
+  <br/>
 In t0 and t1/t1 eindhoven there were no MQ score, MQ category and BMI category. These columns must be calculated and added to their dataframe. It has been done by the formula (REFERENCE TO DOMAIN KNOWLEDGE). 
 
 For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
@@ -256,7 +256,7 @@ After merging the NaN values had to be dropped because models can't calculate wi
 
 
 <h4>Imputation</h4>
-  <br/><br/>
+  <br/>
 The missing values in the dataframes have been treated with different approaches. First of all if a feature has less than 80% data the feature has been dropped as the imputation methods might create "big" patterns in the dataframes which has to be avoided to answer the research question adequate and to be valid. 
 
 One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute. 
@@ -266,11 +266,11 @@ For overfitting prevention there are also two different "tasks". The first one i
 
 
 <h3>Data explanation</h3>
-  <br/><br/>
+  <br/>
 In the data preparation part it has been discovered that the data is not perfect for machine learning as there is not much variety in it as well as too much veracity in a few dataframes e.g. questionaire data. The questionaire data also has not much volume as this dataframe ends up after merging with t0 and dropping nan values with 37 rows. 
 
 <h3>Data visualization (exploratory)</h3>
-  <br/><br/>
+  <br/>
 To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
 <hr>
 </details>
@@ -321,7 +321,7 @@ Fine and gross motor skills differ between healthy-weight and obese children, Re
 
 <details>
   <summary>Reflection on own contribution to the project</summary>
-  <br/><br/>
+  <br/>
 In our group project we didn't have any specific roles. But we decided to do a stand up every weekday in the morning. In these meetings my role was to take notes on our tasks, goals, etc and also to inform the members which couldn't attend the meetings. Therefore we all knew what our goals were and knew where what our progress is at that moment. I learned to communicate more clearly and describe goals, tasks and so on more clearly. 
 One major problem was our t0 dataset. The first data preparation team tried to merge every data in one single file. So in one datafile there should be t0 data, questionaire data from the parents and cbs data. As nobody tested the dataset or took a deeper look into it we worked with this dataset for one to two months. After this time I discovered that there was information missing and also not consistent information. During merging cbs data with our t0 data there was data from the cbs data dropped. That happened because cbs data is more complex. We tried to merge the cbs data on the zipcodes but the zipcodes in our t0 dataset has a one-to-one relationship while the zipcodes in the cbs data has a one-to-many relationship. After I discovered that I tried to go back to the beginning so to data preparation but there wasn't much time left so I decided to drop the cbs data and focus on other things and take a look into it if we still have time. Since then I learned to test more and more and not assume that everything works perfectly. 
 
@@ -332,7 +332,7 @@ As we discovered the mistakes in our dataset very late (begin/middle of december
 
 <details>
   <summary>Reflection on own learning objectives</summary>
-  <br/><br/>
+  <br/>
   In this study I wanted to get to know to machine learning and learn the basics in machine learning. As well as see if this might be a direction of work for me in the future. In the beginning there was very much information and an information overload for me which made it hard for me to understand how machine learning works. That's why I choose to read the book "Hands-on Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build Intelligent Systems". At the beginning it didn't help much as there was still a information overload. But after trying some things in our group project I understood more and more. Adding to this I asked a friend of mine who already worked with machine learning which helped a lot. The outcome of this all was that I understood machine learning more and more which lead to an ever changing project code and approach. In the end it all clicked and makes sense. I understand the basics of machine learning now when to do which steps and why doing these steps is important. The information overload was very hard for me in the beginning but as I absorbed more and more information through different sources I learned to use these sources and how to use these sources. 
 
 Another learning objective for me was the project planning. As I never had an interdisciplinary study/course with people not from programming in general I never knew how to work in a "work environment" and how to explain functions to not developers. Therefore one of my tasks was to explain functions or developing in general more clearly to not developers. I did this and asked the person afterwards what they think I meant. Also what they think the outcome will look like and compared this to my thoughts/results from these questions. If they aligned I could assume that they understood what I meant. Sometimes the developers understood my points but the non developers didn't and they looked confused after my explanations. After this I noticed that my thoughts are very specific and that it was hard to explain things easy and short. That's how I learned to express myself more precise and simpler. As well as trying to understand the thinking process of other non developers more. I learned also that I sometimes assume things which shouldn't be assumed and that I needed to ask myself and the other members more questions. 
@@ -341,7 +341,7 @@ Another learning objective for me was the project planning. As I never had an in
 
 <details>
   <summary>Evaluation on the group project as a whole (NEEDS IMPROVEMENT)</summary>
-  <br/><br/>
+  <br/>
   The group in general was a good group although we weren't all developers. That led to the fact that we sometimes got stuck. One problem was that we had to explain in detail what our steps were and what some code snippet does. Another point is that non-developers tried to do very hard tasks e.g. data preparation which led to a "wrong" dataset as this wasn't tested neither by other group members nor by me. So after we discovered that there were mistakes we had to begin at the start again. Now I know that I should test more and that cross-testing is mandatory for hard tasks. Also that clear and precise communication is the key to a good group project. (not finished)
 
 All in all was it a good group project as we had a good problem management and discussed many things in our group. When somebody had a problem we asked each other if somebody has a solution or could help and pair program. Therefore we could solve almost all problems and if it took too much time we did it separately and tried to absorb as much information as possible. In the end somebody always had a solution for our problem. 
