@@ -243,9 +243,7 @@ For overfitting prevention there are also two different "tasks". The first one i
 
 
 Data explanation
-<ul>
-  <li>describe dataset</li>
-</ul>
+In the data preparation part it has been discovered that the data is not perfect for machine learning as there is not much variety in it as well as too much veracity in a few dataframes e.g. questionaire data. The questionaire data also has not much volume as this dataframe ends up after merging with t0 and dropping nan values with 37 rows. 
 
 Data visualization (exploratory)
 <ul>
