@@ -152,7 +152,7 @@ First of all the used/inspected datasets are t0 data, school postcodes from Rott
 The t0 data is a csv file which has been loaded in form of a pandas dataframe with the function "read_csv" for the t0 data the separator has to be specified as a ; has been used as the separator. The same applies to the cbs data, postcode data and t1 data. Only the questionaires are an excel file which has been loaded with the pandas function "read_excel". After running the insights function it clearly showed that the dataframes have been loaded correctly. 
 
 <h4>Visualizations</h4>
-For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. [The visualization notebooks can be found here]: /Notebooks/Visualizations
+For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. [The visualization notebooks can be found here]:Notebooks/Visualizations
 
 
 
