@@ -113,7 +113,7 @@ Our study takes self-perception into account but research shows that the self-pe
 
 Another research states that not only the exercising part is important but also e.g. sleeping time. Thus there aren't only variables we can see directly in physical education or in exercising but also variables teachers/researchers can't see but have to ask the parents. 
 
-<h3>Terminology</h3>
+### Terminology
   <br>
 
 **Fine-motor skills**: hand-eye coordination e.g. drawing <br>
