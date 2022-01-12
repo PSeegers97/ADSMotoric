@@ -136,6 +136,7 @@ MQ-category = classification of childs motor skill with the MQ-score
 <hr>
 </details>  
 
+The visualization notebooks can be found here [The visualization notebooks can be found here]
 [The visualization notebooks can be found here]:(Notebooks/Visualizations)
 <details>
   <summary>
