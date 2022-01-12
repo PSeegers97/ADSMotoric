@@ -77,8 +77,8 @@ NEEDS TO BE WRITTEN
 </ul>
 
 <h3>Planning</h3>
-  <br/><br/>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
+<br/><br/>
 <details>
 <summary>Scrum chart board</summary>
   <br/><br/>
@@ -95,7 +95,7 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
 </ul>
 
 </details>
-
+---
 
 <details>
   <summary>
@@ -135,7 +135,7 @@ MQ-Score = Motor Quotient score calculated by
 MQ-category = classification of childs motor skill with the MQ-score
 
 </details>  
-
+---
 
 <details>
   <summary>
@@ -274,7 +274,7 @@ In the data preparation part it has been discovered that the data is not perfect
 To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK ZUM FOLDER) are the plots with different t-SNE parameters. After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered.
 </details>
 
-
+---
 
 <details>
   <summary>
@@ -291,7 +291,7 @@ We decided as a group that everybody works on the paper and therefore I wrote to
 
 </details> 
 
-
+---
 <details>
   <summary>
     Bibliography
