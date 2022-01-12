@@ -57,14 +57,14 @@ For basic understanding and getting to know machine learning there were assignme
 
 
 
-Evaluation
+<h3>Evaluation</h3>
 
 During the research for our project we found out that the perceived motor competence isn't a good indicator as young children (below the age 8) aren't good in their self-perception (SOURCE). As other studies recommend and one of our results was that parental questionaire data might have a big impact on the motor skill development. Although these questionaires have to be handled with care as other studies say (SOURCE). That is why there might be other factors e.g. sport participation in sport clubs, which sports maybe have the biggest impact on the gross motor skill development. Another possible solution might be simplifying the motor skill quotient. 
 <ul>
   <li>direction future work</li>
 </ul>
 
-Conclusions
+<h3>Conclusions</h3>
 
 
 NEEDS TO BE WRITTEN 
@@ -76,7 +76,7 @@ NEEDS TO BE WRITTEN
   <li>test outcomes (statistical significance)</li>
 </ul>
 
-Planning
+<h3>Planning</h3>
   <br/><br/>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
 <details>
