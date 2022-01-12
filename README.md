@@ -59,6 +59,8 @@ For basic understanding and getting to know machine learning there were assignme
 
 
 Evaluation
+
+During the research for our project we found out that the perceived motor competence isn't a good indicator as young children (below the age 8) aren't good in their self-perception (SOURCE). As other studies recommend and one of our results was that parental questionaire data might have a big impact on the motor skill development. Although these questionaires have to be handled with care as other studies say (SOURCE). That is why there might be other factors e.g. sport participation in sport clubs, which sports maybe have the biggest impact on the gross motor skill development. Another possible solution might be simplifying the motor skill quotient. 
 <ul>
   <li>direction future work</li>
 </ul>
