@@ -78,6 +78,7 @@ NEEDS TO BE WRITTEN
 </ul>
 
 Planning
+In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure ?. (FIGURE ZAHL EINFÜGEN) 
 <details>
 <summary>Scrum chart board</summary>
   <br/><br/>
