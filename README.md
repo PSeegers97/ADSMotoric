@@ -222,7 +222,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 
 [The data preprocessing notebook can be found here. ADD LINK](Notebooks)
 
-The dataframes are from now on mentioned as their dataframe name.[1]
+The dataframes are from now on mentioned as their dataframe name.[2]
 
 
 
@@ -247,7 +247,7 @@ For encoding of the categorical features the LabelEncoder has been used.
 
 <h4>Feature selection</h4>
   <br/>
-Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with $${\chi}^2$$ and selected the 5 best features. 
+Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
 <img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;{\chi}^2&space;" title="\bg_white {\chi}^2 " />
 
 <h4>Merging</h4>
@@ -344,7 +344,9 @@ Fine and gross motor skills differ between healthy-weight and obese children, Re
 
 
 * Alles over Sport. (n.d.). Start (V)aardig. Allesoversport.nl., from https://www.allesoversport.nl/startvaardig/
-[1]https://www.verywellfamily.com/what-are-motor-skills-3107058
+
+
+[2]https://www.verywellfamily.com/what-are-motor-skills-3107058
 
 </details>
 
