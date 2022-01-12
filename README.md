@@ -257,10 +257,11 @@ To find some similarities in the t0 dataset a t-SNE has been plotted. Here (LINK
   </summary> 
 
 Presentations
-<ul>
-  <li>more than two presentations</li>
-</ul>
+I participated in a few presentations and prepared the presentations with the other group members. I presented the second external presentation as well as the internal presentation 5 and the learning lab. 
+
 Writing paper
+We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it. 
+
 </details> 
 
 
