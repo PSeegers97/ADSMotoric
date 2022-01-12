@@ -124,7 +124,7 @@ Another research states that not only the exercising part is important but also 
 <h3>Terminology</h3>
   <br>
 
-**Fine-motor skills**: hand-eye coordination e.g. drawing
+**Fine-motor skills**: hand-eye coordination e.g. drawing <br>
 **Gross-Motor skills**: large muscle group coordination e.g. walking, running, jumping
 
 **AST-1**: Athletic Skill Test 1, Test from the research Hoeboer <br>
