@@ -235,9 +235,9 @@ Features with a no variance have been dropped as they won't have an impact on th
 
 <h4>Merging</h4>
   <br/>
-In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe. It has been done by 
+In t0 and t1/t1 eindhoven there were no MQ score, MQ category, MQ score binary and BMI category. These columns must be calculated and added to their dataframe.  
 
-[the formula](###Terminology). 
+It has been done by [the formula](###Terminology). 
 
 For geographical insights the school postcode numbers and postcode letters from postcodes dh rot and postcodes gro have been added to t0. Not to t1 as t1 is only used for prediction. 
 
