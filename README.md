@@ -1,5 +1,12 @@
 # Minor Applied Data Science
+Student: Pascal Seegers
+Student number: 21132844
+Lecturer: 
+* Jeroen Vuurens
+* Tony Andrioli
+* Ruud Vermeij
 This is the personal portfolio for the minor Applied Data Science at The Hague University made by Pascal Seegers.
+
 
 ## Datacamp
 For basic understanding and getting to know machine learning there were assignments on Datacamp. As you can see I finished every course.
@@ -68,9 +75,7 @@ During the research for our project we found out that the perceived motor compet
 </ul>
 
 <h3>Conclusions</h3>
-
-
-**NEEDS TO BE WRITTEN** 
+During our study we found out that  
 <ul>
   <li>discuss results</li>
   <ul>
@@ -224,8 +229,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 
 
 [The data preprocessing notebook can be found here. ADD LINK](Notebooks)
-
-The dataframes are from now on mentioned as their dataframe name.[2]
+The dataframes are from now on mentioned as their dataframe name.
 
 
 
@@ -302,7 +306,7 @@ A special case is the t1 Eindhoven data as this has 2649 rows and 51 columns. Af
 
 <h3>Data visualization (exploratory)</h3>
   <br/>
-To find some similarities in the t0 dataset a t-SNE has been plotted. 
+To find some similarities in the t0 dataset dimensionality reduction using the t-SNE has been plotted. 
 
 [Here are the plots with different t-SNE parameters.](/Notebooks/Visualizations/t-SNE_visualizations.ipynb) 
 After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered. 
@@ -329,10 +333,11 @@ We decided as a group that everybody works on the paper and therefore I wrote to
   <summary>
     Bibliography
   </summary>
-
-
-[1]: Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.
+<a id="1"></a>
+Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.
 * Monika Haga, Physical Fitness in Children With High Motor Competence Is Different From That in Children With Low Motor Competence, Physical Therapy, Volume 89, Issue 10, 1 October 2009, Pages 1089–1097, https://doi.org/10.2522/ptj.20090052
+
+
 * Khodaverdi, Z., Bahram, A., Khalaji, H., & Kazemnejad, A. (2013). Motor Skill Competence and Perceived Motor Competence: Which Best Predicts Physical Activity among Girls?. Iranian journal of public health, 42(10), 1145–1150.
 * Morano, M., Bortoli, L., Ruiz, M. C., Campanozzi, A., & Robazza, C. (2020). Actual and perceived motor competence: Are children accurate in their perceptions?. PloS one, 15(5), e0233190. https://doi.org/10.1371/journal.pone.0233190
 * Hoeboer, J., Ongena, G., Krijger-Hombergen, M., Stolk, E., Savelsbergh, G., & de Vries, S. I. (2018). The Athletic Skills Track: Age- and gender-related normative values of a motor skills test for 4- to 12-year-old children. Journal of science and medicine in sport, 21(9), 975–979.
