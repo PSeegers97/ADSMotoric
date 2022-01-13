@@ -254,34 +254,12 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 |  CBS income |  25032 rows, 22 columns |  55074 |
 |  CBS migration background |  512576 rows, 7 columns |  3595032 |
 
-
-<ul>
-  <li>examine data</li>
-  <li>visualize data</li>
-  <ul>
-    <li>scatter plots</li>
-    <li>missingno plots</li>
-    <figure style="text-align: center">
-      <img src="/images/Visualizations/T0_data_msno.png" alt="Missing values in raw dataset" width="500">
+  <figure style="text-align: center">
+      <img src="/images/Visualizations/MSNO/t0_msno.png" alt="Missing values in raw dataset (t0)" width="500">
       <br/><br/>
-    <figcaption><i><small>Fig. 2: Missingno plot of raw T0 data</small></i></figcaption>
+    <figcaption><i><small>Fig. 5: Missingno plot of raw T0 data</small></i></figcaption>
   </figure>
-    <li>histogram plots</li>
-    <li>t-SNE</li>
-    
-  </ul>
-  <li>distributions</li>
-  
-  <li>outliers</li>
-  <ul>
-    <li>missingno</li>  
-  </ul>
-  
-  <li>correlation</li>
-  <ul>
-    <li>hypothesis</li>
-  </ul>
-</ul>
+
 
 <h3>Data preparation & cleaning </h3>
 
@@ -385,7 +363,11 @@ After viewing them it has been discovered that there is no real cluster in the t
   </summary> 
 
 <h3>Presentations</h3>
-I participated in a few presentations and prepared the presentations with the other group members. I presented the second external presentation as well as the internal presentation 5 and the learning lab. 
+I participated in a few presentations and prepared the presentations with the other group members. I presented the second external presentation as well as the internal presentation 6 and the learning lab.
+
+[The learning lab notebook can be found here.](Notebooks/T-SNE_learning_lab.ipynb)
+
+[The presentations can be found here.](Presentations)
 
 <h3>Writing paper</h3>
 We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it.
