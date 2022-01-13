@@ -76,7 +76,7 @@ During the research for our project we found out that the perceived motor compet
 </ul>
 
 <h3>Conclusions</h3>
-During our study we found out that  
+During our study   
 <ul>
   <li>discuss results</li>
   <ul>
@@ -162,7 +162,7 @@ For a first understanding of the t0 data there were different ways to properly u
 [The visualization notebooks can be found here.](Notebooks/Visualizations)
 
 
-<div style="text-align: center">
+<div>
 <img src="/images/age-bmi.png" alt="Scatter plot of t0 with x: age and y: bmi" width="500">
 <br/><br/>
 <figcaption><i><small>Fig. 3: Scatter plot of t0 with outliers (x-axis:age, y-axis:BMI)</small></i></figcaption>
