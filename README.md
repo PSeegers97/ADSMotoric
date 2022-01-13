@@ -150,12 +150,8 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
 
   [Link to Microsoft Planner (Scrum board)](https://tasks.office.com/DeHaagseHogeschool.onmicrosoft.com/Home/PlanViews/9Jb-xUUDp0Gu_F2YlVNn2ZYAAPLf?Type=PlanLink&Channel=Link&CreatedTime=637776783096820000)
 
-  
-</details>
-<ul>
 
-  <li>Notes?</li>
-</ul>
+</details>
 <hr>
 </details>
 
