@@ -280,7 +280,7 @@ As the visualizations and the insights showed us t0 has a few outliers which hav
 
 But the IQR method isn't appropriate for this study as there are features with a low variance and thus the IQR method removes valuable children (SHOW IQR OUTPUT) with a bad motor skill. That happens because the lower quartile has too high values. The IQR method wasn't pursued after discovering this. 
 
-<i><small>Table 2: t0 shapes and sizes after outlier removal and imputation</small></i>
+<i><small>Table 7: t0 shapes and sizes after outlier removal and imputation</small></i>
 
 | Dataframe  |  Shape |  Size |
 |---|---|---|
