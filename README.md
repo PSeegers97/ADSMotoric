@@ -137,6 +137,7 @@ The most interesting discovery is that our models did not rate the weight or BMI
 
 <h3>Planning</h3>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure 2. 
+We used Github as a version control tool and pushed everyday in the evening our process to the repository.
 <br/><br/>
 <details>
 <summary>Scrum chart board</summary>
