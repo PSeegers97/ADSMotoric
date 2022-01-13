@@ -6,6 +6,8 @@
 * Tony Andrioli
 * Ruud Vermeij
 <br>
+
+**Period:** 2021/2022
 This is the personal portfolio for the minor Applied Data Science at The Hague University made by Pascal Seegers.
 
 
