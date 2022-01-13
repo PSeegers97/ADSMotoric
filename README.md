@@ -67,9 +67,7 @@ For basic understanding and getting to know machine learning there were assignme
 <h3>Evaluation</h3>
 
 During the research for our project we found out that the perceived motor competence isn't a good indicator as young children (below the age 8) aren't good in their self-perception (Morano, 2020). As other studies recommend and one of our results was that parental questionaire data might have a big impact on the motor skill development (Khodaverdi, 2013). Although these questionaires have to be handled with care as other studies say (Zysset, 2018). That is why there might be other factors e.g. sport participation in sport clubs, which sports maybe have the biggest impact on the gross motor skill development. Another possible solution might be simplifying the motor skill quotient.
-<ul>
-  <li>direction future work</li>
-</ul>
+
 
 <h3>Conclusions</h3>
 During our study it has been discovered that research is right about the low self-perception of children in the age period from 4-year-olds to 6-year-olds as the perceived motor competence has no impact on our models and have been filtered out by our feature selection (Morano, 2020). As other studies show there might be some other variables which have a greater impact e.g. the sleeping time (Luft, 2005). Another solution might be to take more location specific data into account e.g. CBS data. One problem occured with the parental questionaire data as this had too many holes and therefore a full parental questionaire data might have better features (more important features) and might predict with a lower false-negative rate.
@@ -82,14 +80,48 @@ Research also shows that one year might be too short for predicting a lack in mo
 
 The most interesting discovery is that our models did not rate the weight or BMI as valuable as other research shows. 
 
+<details>
+  <summary>Examples</summary>
+<br>
+<i><small>Table 1: Imputation methods compared with the binary classification kNN </small></i>
+|  Imputation |  Accuracy Train set |  Accuracy Test set |  False-negative rate |
+|---|---|---|---|
+|  Mean |  92,3% |  64,9% |  35,1% |
+|  Median |  100,0% |  64,9% |  35,1% |
+|  kNN |  100,0% |  64,9% |  35,1% |
+<br>
 
-<ul>
-  <li>discuss results</li>
-  <ul>
-    <li>show examples</li>
-  </ul>
-  <li>test outcomes (statistical significance)</li>
-</ul>
+<i><small>Table 2: Model performances with t0 data mean outlier removal, mean imputation and binary classification</small></i>
+| Model  |  Accuracy Train set | Accuracy Test set  |  False-negative rate |
+|---|---|---|---|
+|  Random Forest Classifier |  100,0% |  64,9% |  35,1% |
+|  kNN Classifier |  92,3% |  64,9% |  35,1% |
+|  Decision Tree Classifier |  100,0% |  64,9% | 35,1%  |
+|  Gradient Boost Classifier |  50,0% |  38,8% |  35,1% |
+|  Bagging Classifier |  98,0% |  65,2% |  34,9% |
+<br>
+<i><small>Table 3: Accuracy scores of models using multilabel classification</small></i>
+|  Model | Accuracy Train set  |  Accuracy Test set | 
+|---|---|---|
+|  Random Forest Classifier |  100,0% |  8,6% |  
+|  kNN Classifier |  62,5% |  0,3% |   
+|  Decision Tree Classifier |  100,0% |  20,2% |
+
+<br>
+<i><small>Table 4: 10-Fold cross-validation with accuracy as scoring method</small></i>
+| N-Fold  |  1 |  2 |  3 | 4  |  5 |  6 | 7  |  8 |  9 |  10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Accuracy  |  90,0% |  85,6% |  93,1% |  89,9% |  88,1% |  91,8% |  92,5% |  91,2% |  90,6% |  88,1% |
+
+<br>
+
+<i><small>Table 5: Mean and standard deviation of cross-validation</small></i>
+|  kNN-binary model |  Accuracy |
+|---|---|
+|  Mean |  90,1% |
+|  Standard deviation |  2,2% |
+<br>
+</details>
 
 <h3>Planning</h3>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure 2. 
