@@ -255,7 +255,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 |  CBS migration background |  512576 rows, 7 columns |  3595032 |
 
   <figure style="text-align: center">
-      <img src="/images/Visualizations/MSNO/t0_msno.png" alt="Missing values in raw dataset (t0)" width="500">
+      <img src="/images/Visualizations/MSNO/t0_msno.jpg" alt="Missing values in raw dataset (t0)" width="500">
       <br/><br/>
     <figcaption><i><small>Fig. 5: Missingno plot of raw T0 data</small></i></figcaption>
   </figure>
