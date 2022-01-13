@@ -172,7 +172,11 @@ Our study takes self-perception into account but research shows that the self-pe
 
 **MQ-Score**: Motor Quotient score calculated by: 
 (percentile / AST-Time) *100 <br> (the percentile can be found in )
+<br>
+
 **MQ-category**: classification of childs motor skill with the MQ-score
+<br>
+
 **MQ-category binary**: simplified classification of childs motor skill with the MQ-category &#8594; MQ-category below 3 is classified as bad all above as good
 
 <hr>
