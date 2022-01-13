@@ -160,6 +160,9 @@ One major point research shows is that obese children perform very low in motor 
 
 Our study takes self-perception into account but research shows that the self-perception isn't accurate until the age of eight (Morano, 2020). 
 
+<br>
+
+#### Terminology
 
 **Fine-motor skills**: hand-eye coordination e.g. drawing <br>
 **Gross-Motor skills**: large muscle group coordination e.g. walking, running, jumping
