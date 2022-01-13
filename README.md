@@ -239,7 +239,7 @@ In figure 4 it can be seen that there is a correlation between these two feature
 Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE).
 
 
-[The Insights can be found here. LINK TO CLEANING DATA](Notebooks)
+[The Insights can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 
 <i><small>Table 1: Small insights in all collected data</small></i>
 
@@ -286,7 +286,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 <h3>Data preparation & cleaning </h3>
 
 
-[The data preprocessing notebook can be found here. ADD LINK](Notebooks)
+[The data preprocessing notebook can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 The dataframes are from now on mentioned as their dataframe name.
 
 
