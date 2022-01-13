@@ -137,6 +137,7 @@ The most interesting discovery is that our models did not rate the weight or BMI
 
 <h3>Planning</h3>
 In our project we decided to use an agile method for developing namely Scrum. But we changed it a bit so that we've got a project leader, a notes taker, developers and non-developers. The chart of done tasks can be seen Figure 2. 
+We used Github as a version control tool and pushed everyday in the evening our process to the repository.
 <br/><br/>
 <details>
 <summary>Scrum chart board</summary>
@@ -238,7 +239,7 @@ In figure 4 it can be seen that there is a correlation between these two feature
 Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE).
 
 
-[The Insights can be found here. LINK TO CLEANING DATA](Notebooks)
+[The Insights can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 
 <i><small>Table 1: Small insights in all collected data</small></i>
 
@@ -285,7 +286,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 <h3>Data preparation & cleaning </h3>
 
 
-[The data preprocessing notebook can be found here. ADD LINK](Notebooks)
+[The data preprocessing notebook can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 The dataframes are from now on mentioned as their dataframe name.
 
 
@@ -311,7 +312,9 @@ For encoding of the categorical features the LabelEncoder has been used.
 
 <h4>Feature selection</h4>
   <br/>
-Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
+Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. I choose the 5 best as after experimenting with a higher `k` we got a bigger overfitting problem. We can't use less than 5 features as the feature selection would only select the features which are needed to calculate the MQ-Category.
+
+
 <img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;{\chi}^2&space;" title="\bg_white {\chi}^2 " />
 
 <h4>Merging</h4>
@@ -349,7 +352,8 @@ After merging the NaN values had to be dropped because models can't calculate wi
   <br/>
 The missing values in the dataframes have been treated with different approaches. First of all if a feature has less than 80% data the feature has been dropped as the imputation methods might create "big" patterns in the dataframes which has to be avoided to answer the research question adequate and to be valid. 
 
-One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute. 
+One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute.
+After experimenting a bit with the kNNImputer I decided to set the `nearest_neighbors` to 6 as other values don't improve much in our model. 
 
 
 For overfitting prevention there are also two different "tasks". The first one is a binary classification problem (ADD MQ BINARY TO MERGING) and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
@@ -366,7 +370,10 @@ A special case is the t1 Eindhoven data as this has 2649 rows and 51 columns. Af
 To find some similarities in the t0 dataset dimensionality reduction using the t-SNE has been plotted. 
 
 [Here are the plots with different t-SNE parameters.](/Notebooks/Visualizations/t-SNE_visualizations.ipynb) 
+
 After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered. 
+
+
 <hr>
 </details>
 
