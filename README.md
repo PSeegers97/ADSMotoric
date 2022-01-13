@@ -163,13 +163,13 @@ For a first understanding of the t0 data there were different ways to properly u
 
 
 <div>
-<img src="images/age-bmi.png" alt="Scatter plot of t0 with x: age and y: bmi" width="500">
+<img src="images/Visualization/age-bmi.png" alt="Scatter plot of t0 with x: age and y: bmi" width="500">
 <br/><br/>
 <figcaption><i><small>Fig. 3: Scatter plot of t0 with outliers (x-axis:age, y-axis:BMI)</small></i></figcaption>
 </div>
 
 <div style="text-align: center">
-<img src="images/Age-ast.png" alt="Scatter plot of t0 with x: age and y: AST-Time" width="500">
+<img src="images/Visualization/Age-ast.png" alt="Scatter plot of t0 with x: age and y: AST-Time" width="500">
 <br/><br/>
 <figcaption><i><small>Fig. 4: Scatter plot of t0 with outliers (x-axis: age, y-axis: AST-Time)</small></i></figcaption>
 </div>
@@ -205,7 +205,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
     <li>scatter plots</li>
     <li>missingno plots</li>
     <figure style="text-align: center">
-      <img src="/images/Visualizations/T0_data_msno.pdf" alt="Missing values in raw dataset" width="500">
+      <img src="/images/Visualizations/T0_data_msno.png" alt="Missing values in raw dataset" width="500">
       <br/><br/>
     <figcaption><i><small>Fig. 2: Missingno plot of raw T0 data</small></i></figcaption>
   </figure>
