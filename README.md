@@ -1,7 +1,7 @@
 # Minor Applied Data Science
-Student: Pascal Seegers <br>
-Student number: 21132844 <br>
-Lecturer: 
+**Student:** Pascal Seegers <br>
+**Student number:** 21132844 <br>
+**Lecturer:** 
 * Jeroen Vuurens
 * Tony Andrioli
 * Ruud Vermeij
