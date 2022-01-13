@@ -312,7 +312,9 @@ For encoding of the categorical features the LabelEncoder has been used.
 
 <h4>Feature selection</h4>
   <br/>
-Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. 
+Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. I choose the 5 best as after experimenting with a higher `k` we got a bigger overfitting problem. We can't use less than 5 features as the feature selection would only select the features which are needed to calculate the MQ-Category.
+
+
 <img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;{\chi}^2&space;" title="\bg_white {\chi}^2 " />
 
 <h4>Merging</h4>
@@ -350,7 +352,8 @@ After merging the NaN values had to be dropped because models can't calculate wi
   <br/>
 The missing values in the dataframes have been treated with different approaches. First of all if a feature has less than 80% data the feature has been dropped as the imputation methods might create "big" patterns in the dataframes which has to be avoided to answer the research question adequate and to be valid. 
 
-One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute. 
+One approach is the imputation using the mean of the features, another one is using the median of the features and the last one is done via the kNNImputer from sklearn.impute.
+After experimenting a bit with the kNNImputer I decided to set the `nearest_neighbors` to 6 as other values don't improve much in our model. 
 
 
 For overfitting prevention there are also two different "tasks". The first one is a binary classification problem (ADD MQ BINARY TO MERGING) and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
@@ -367,7 +370,10 @@ A special case is the t1 Eindhoven data as this has 2649 rows and 51 columns. Af
 To find some similarities in the t0 dataset dimensionality reduction using the t-SNE has been plotted. 
 
 [Here are the plots with different t-SNE parameters.](/Notebooks/Visualizations/t-SNE_visualizations.ipynb) 
+
 After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered. 
+
+
 <hr>
 </details>
 
