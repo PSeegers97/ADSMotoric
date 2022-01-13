@@ -84,6 +84,8 @@ The most interesting discovery is that our models did not rate the weight or BMI
   <summary>Examples</summary>
 <br>
 <i><small>Table 1: Imputation methods compared with the binary classification kNN </small></i>
+
+
 |  Imputation |  Accuracy Train set |  Accuracy Test set |  False-negative rate |
 |---|---|---|---|
 |  Mean |  92,3% |  64,9% |  35,1% |
@@ -92,6 +94,8 @@ The most interesting discovery is that our models did not rate the weight or BMI
 <br>
 
 <i><small>Table 2: Model performances with t0 data mean outlier removal, mean imputation and binary classification</small></i>
+
+
 | Model  |  Accuracy Train set | Accuracy Test set  |  False-negative rate |
 |---|---|---|---|
 |  Random Forest Classifier |  100,0% |  64,9% |  35,1% |
@@ -101,6 +105,8 @@ The most interesting discovery is that our models did not rate the weight or BMI
 |  Bagging Classifier |  98,0% |  65,2% |  34,9% |
 <br>
 <i><small>Table 3: Accuracy scores of models using multilabel classification</small></i>
+
+
 |  Model | Accuracy Train set  |  Accuracy Test set | 
 |---|---|---|
 |  Random Forest Classifier |  100,0% |  8,6% |  
@@ -109,6 +115,8 @@ The most interesting discovery is that our models did not rate the weight or BMI
 
 <br>
 <i><small>Table 4: 10-Fold cross-validation with accuracy as scoring method</small></i>
+
+
 | N-Fold  |  1 |  2 |  3 | 4  |  5 |  6 | 7  |  8 |  9 |  10 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Accuracy  |  90,0% |  85,6% |  93,1% |  89,9% |  88,1% |  91,8% |  92,5% |  91,2% |  90,6% |  88,1% |
@@ -116,10 +124,14 @@ The most interesting discovery is that our models did not rate the weight or BMI
 <br>
 
 <i><small>Table 5: Mean and standard deviation of cross-validation</small></i>
+
+
 |  kNN-binary model |  Accuracy |
 |---|---|
 |  Mean |  90,1% |
 |  Standard deviation |  2,2% |
+
+
 <br>
 </details>
 
