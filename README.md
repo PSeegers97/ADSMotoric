@@ -171,7 +171,7 @@ Our study takes self-perception into account but research shows that the self-pe
 **AST-2**: Athletic Skill Test 2, Test from the research Hoeboer
 
 **MQ-Score**: Motor Quotient score calculated by: 
-(percentile / AST-Time) *100 <br> (the percentile can be found in )
+(percentile / AST-Time) *100 <br> (the percentile can be found in Hoeboer, 2018)
 <br>
 
 **MQ-category**: classification of childs motor skill with the MQ-score
