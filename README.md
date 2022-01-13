@@ -381,7 +381,12 @@ After viewing them it has been discovered that there is no real cluster in the t
 I participated in a few presentations and prepared the presentations with the other group members. I presented the second external presentation as well as the internal presentation 5 and the learning lab. 
 
 <h3>Writing paper</h3>
-We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it. 
+We decided as a group that everybody works on the paper and therefore I wrote together with Joost van Viegen the result part as well as the conclusion and together as a group we wrote the abstract. Everybody (myself included) reread the paper and corrected it.
+
+<h3>Notes</h3>
+For better communication and better understanding of our progress I was the one who took notes from our stand ups and topics we needed to talk about. 
+
+[Link to Folder with Notes as pdfs](/Notes/)
 <hr>
 </details> 
 
