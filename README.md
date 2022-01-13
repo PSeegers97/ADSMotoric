@@ -164,13 +164,13 @@ For a first understanding of the t0 data there were different ways to properly u
 
 <div>
 <img src="images/Visualizations/Age-Bmi.jpg" alt="Scatter plot of t0 with x: age and y: bmi" width="500">
-<br/><br/>
+<br>
 <figcaption><i><small>Fig. 3: Scatter plot of t0 with outliers (x-axis:age, y-axis:BMI)</small></i></figcaption>
 </div>
-
+<br>
 <div style="text-align: center">
 <img src="images/Visualizations/ASt-Age.jpg" alt="Scatter plot of t0 with x: age and y: AST-Time" width="500">
-<br/><br/>
+<br>
 <figcaption><i><small>Fig. 4: Scatter plot of t0 with outliers (x-axis: age, y-axis: AST-Time)</small></i></figcaption>
 </div>
 
