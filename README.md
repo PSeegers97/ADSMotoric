@@ -40,12 +40,8 @@ For basic understanding and getting to know machine learning there were assignme
 
   <h3>Problem definition</h3>
 
-  [soruce 1][1]
+  Our research project is a following study of the study "The Athletic Skills Track: Age- and gender -related normative values of a motor skills test for 4- to 12-year-old children" which was conducted by Hoeboer (Hoeboer, 2018). Our problem owner Pim Koolwijk is studying which biological or socio-demographic variables might have an impact on bad gross motor skills. So our goal was it to find patterns in children with bad gross motor skills and to eliminate these patterns in real world by improving relevant features or try to find spots for valuable variables for improvement which can be done by the government. Therefore our goal was to find similarities in children with bad motor skills as well as trying to predict with those similarities if a child will be lacking in motor skill development in the future in other words one year later. As this field of study is new there are only similar research projects which among each other use different model approaches. Thus one of our goals is to find the best prediction model for our study. 
 
-  Our research project is a following study of the study "The Athletic Skills Track: Age- and gender -related normative values of a motor skills test for 4- to 12-year-old children" which was conducted by Hoeboer. Our problem owner Pim Koolwijk is studying which biological or socio-demographic variables might have an impact on bad gross motor skills. So our goal was it to find patterns in children with bad gross motor skills to eliminate these patterns or try to find spots for valuable variables for improvement which can be done by the government. Therefore our goal was to find similarities in children with bad motor skills as well as trying to predict with those similarities if a child will be lacking in motor skill development in the future in other words one year later. As this field of study is new there are only similar research projects which among each other use different model approaches. Thus one of our goals is to find the best prediction model for our study. 
-    <div>
-        *children lack in physical abilities if they won't develop gross motoric skills. Children with good gross motoric skills have a more active lifestyle in their adulthood.
-    </div>
 <div>
     <h3>Research Question:</h3>
     <div align="center"><h4>
@@ -70,13 +66,23 @@ For basic understanding and getting to know machine learning there were assignme
 
 <h3>Evaluation</h3>
 
-During the research for our project we found out that the perceived motor competence isn't a good indicator as young children (below the age 8) aren't good in their self-perception (SOURCE). As other studies recommend and one of our results was that parental questionaire data might have a big impact on the motor skill development. Although these questionaires have to be handled with care as other studies say (SOURCE). That is why there might be other factors e.g. sport participation in sport clubs, which sports maybe have the biggest impact on the gross motor skill development. Another possible solution might be simplifying the motor skill quotient.
+During the research for our project we found out that the perceived motor competence isn't a good indicator as young children (below the age 8) aren't good in their self-perception (Morano, 2020). As other studies recommend and one of our results was that parental questionaire data might have a big impact on the motor skill development (Khodaverdi, 2013). Although these questionaires have to be handled with care as other studies say (Zysset, 2018). That is why there might be other factors e.g. sport participation in sport clubs, which sports maybe have the biggest impact on the gross motor skill development. Another possible solution might be simplifying the motor skill quotient.
 <ul>
   <li>direction future work</li>
 </ul>
 
 <h3>Conclusions</h3>
-During our study   
+During our study it has been discovered that research is right about the low self-perception of children in the age period from 4-year-olds to 6-year-olds as the perceived motor competence has no impact on our models and have been filtered out by our feature selection (Morano, 2020). As other studies show there might be some other variables which have a greater impact e.g. the sleeping time (Luft, 2005). Another solution might be to take more location specific data into account e.g. CBS data. One problem occured with the parental questionaire data as this had too many holes and therefore a full parental questionaire data might have better features (more important features) and might predict with a lower false-negative rate.
+
+The model with the lowest false-negative rate was our bagging classifier with the binary MQ category. However as this isn't the only evaluation method we used it has been discovered that our k-nearest neighbor classifier worked best in form of precision, recall and accuracy although the false-negative rate is higher by 0,2%. But in general all models performed better (lower fN rate, higher accuracy, higher precision-recall) with our binary MQ category. 
+
+Our overfitting could maybe be prevented if we split our dataset into two datasets one for children with bad motor skills and one for good motor skills as the research shows that children with good motor skills have a higher learning curve than children with bad motor skills and therefore the distance between good motor skills and bad motor skills gets higher. 
+
+Research also shows that one year might be too short for predicting a lack in motor skills as the development in this age period (from 4-6) is slow and other research shows that significance occured after a longer period (Morano, 2020). 
+
+The most interesting discovery is that our models did not rate the weight or BMI as valuable as other research shows. 
+
+
 <ul>
   <li>discuss results</li>
   <ul>
@@ -111,19 +117,17 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
     Domain Knowledge
   </summary>
 
-<h3>Subject Field (UNFINISHED)</h3>
+<h3>Subject Field</h3>
 
   <br/>
-Motor skills in general are used in every day life and we practice those skills everyday by walking, bicycling, drawing or writing. But we differ motor skills into two major motor skills. First there is the fine motor skills which include skills like drawing, writing etc. so hand-eye coordination in general. Second there is the gross motor skills on which this study focuses. These include for example walking, running, jumping or bicycling. That's why motor skills are important for survival. 
+Motor skills in general are used in every day life and we practice those skills everyday by walking, bicycling, drawing or writing. But we differ motor skills into two major motor skills. First there is the fine motor skills which include skills like drawing, writing etc. so hand-eye coordination in general. Second there is the gross motor skills on which this study focuses. These include for example walking, running, jumping or bicycling. That's why motor skills are important for survival (Fine and Gross Motor Skills in Children, 2021). 
 
-Motor skills development begins right after birth (see verywellfamily.com) and is a never ending learning process (see study where it says staged process). These skills improve in school age and going to school helps improving them. Research has shown that motor skills have a greater impact than originally known. Motor skills have a great impact on their adolescent and adulthood as children with good motor skills tend to live a healthier life with a lower weight(SOURCE), lower risk of illnesses and overall have a better self-perception. Another important point is that they enjoy sports more. One major problem which research has shown is that children with good motor skills tend to improve their motor skills faster at some point than children with bad motor skills. The rift between children with bad motor skills and children with good motor skills broadens during the growing up. 
+Motor skills development begins right after birth (Fine and Gross Motor Skills in Children, 2021) and is a never ending learning process (Luft, 2005). These skills improve in school age and going to school helps improving them. Research has shown that motor skills have a greater impact on adulthood life than originally known (Piek, 2006). Motor skills have a great impact on their adolescent and adulthood as children with good motor skills tend to live a healthier life with a lower weight (Robinson, 2015), lower risk of illnesses and overall have a better self-perception (Haga, 2009 and Morano, 2020). Another important point is that they enjoy sports more (Morano, 2020). One major problem which research has shown is that children with good motor skills tend to improve their motor skills faster at some point than children with bad motor skills. The rift between children with bad motor skills and children with good motor skills broadens during the growing up (Luft, 2005). 
 
-Our study takes self-perception into account but research shows that the self-perception isn't accurate until the age of eight. 
+One major point research shows is that obese children perform very low in motor competence tests compared to healthy-weight children (Gentier, 2013).  
 
-Another research states that not only the exercising part is important but also e.g. sleeping time. Thus there aren't only variables we can see directly in physical education or in exercising but also variables teachers/researchers can't see but have to ask the parents. 
+Our study takes self-perception into account but research shows that the self-perception isn't accurate until the age of eight (Morano, 2020). 
 
-### Terminology
-  <br>
 
 **Fine-motor skills**: hand-eye coordination e.g. drawing <br>
 **Gross-Motor skills**: large muscle group coordination e.g. walking, running, jumping
@@ -157,7 +161,7 @@ First of all the used/inspected datasets are t0 data, school postcodes from Rott
 The t0 data is a csv file which has been loaded in form of a pandas dataframe with the function "read_csv" for the t0 data the separator has to be specified as a ; has been used as the separator. The same applies to the cbs data, postcode data and t1 data. Only the questionaires are an excel file which has been loaded with the pandas function "read_excel". After running the insights function it clearly showed that the dataframes have been loaded correctly. 
 
 <h4>Visualizations</h4>
-For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig (FIGURE EINFÜGEN). In these scatter plots no correlation between features has been found. 
+For a first understanding of the t0 data there were different ways to properly understand the data. The first step is to visualize the data. Which has been done in form of scatter plots as well as histograms, as t-SNEs and zipcode related plots. It was clearly visible in the scatter plots that there are outliers as you can see in fig 3. In these scatter plots no correlation between features has been found. 
 
 [The visualization notebooks can be found here.](Notebooks/Visualizations)
 
@@ -173,6 +177,7 @@ For a first understanding of the t0 data there were different ways to properly u
 <br>
 <figcaption><i><small>Fig. 4: Scatter plot of t0 with outliers (x-axis: age, y-axis: AST-Time)</small></i></figcaption>
 </div>
+<br>
 
 
 In figure 4 it can be seen that there is a correlation between these two feature. This can be ignored as the MQ-score gets calculated by these two. 
@@ -334,8 +339,8 @@ We decided as a group that everybody works on the paper and therefore I wrote to
   <summary>
     Bibliography
   </summary>
-<a id="1"></a>
-Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.
+
+* Robinson LE, Stodden DF, Barnett LM, Lopes VP, Logan SW, Rodrigues LP, D'Hondt E. Motor Competence and its Effect on Positive Developmental Trajectories of Health. Sports Med. 2015 Sep;45(9):1273-1284. doi: 10.1007/s40279-015-0351-6. PMID: 26201678.
 * Monika Haga, Physical Fitness in Children With High Motor Competence Is Different From That in Children With Low Motor Competence, Physical Therapy, Volume 89, Issue 10, 1 October 2009, Pages 1089–1097, https://doi.org/10.2522/ptj.20090052
 
 
@@ -348,14 +353,15 @@ The relationship between fine and gross motor ability, self-perceptions and self
 Human Movement Science, Volume 25, Issue 1, 2006, Pages 65-75, ISSN 0167-9457, https://doi.org/10.1016/j.humov.2005.10.011
 * Ilse Gentier, Eva D’Hondt, Sarah Shultz, Benedicte Deforche, Mireille Augustijn, Sofie Hoorne, Katja Verlaecke, Ilse De Bourdeaudhuij, Matthieu Lenoir,
 Fine and gross motor skills differ between healthy-weight and obese children, Research in Developmental Disabilities, Volume 34, Issue 11, 2013, Pages 4043-4051, ISSN 0891-4222, https://doi.org/10.1016/j.ridd.2013.08.040
-* Aurlien Gron. 2017. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st. ed.). O'Reilly Media, Inc.
+* Zysset, A. E., Kakebeeke, T. H., Messerli-Bürgy, N., Meyer, A. H., Stülb, K., Leeger-Aschmann, C. S., Schmutz, E. A., Arhab, A., Ferrazzini, V., Kriemler, S., Munsch, S., Puder, J. J., & Jenni, O. G. (2018). The validity of parental reports on motor skills performance level in preschool children: a comparison with a standardized motor test. European journal of pediatrics, 177(5), 715–722. https://doi.org/10.1007/s00431-017-3078-6
+* Aurlien Geron. 2017. Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (1st. ed.). O'Reilly Media, Inc.
 
 
 
 
 * Alles over Sport. (n.d.). Start (V)aardig. Allesoversport.nl., from https://www.allesoversport.nl/startvaardig/
 
-[2]: https://www.verywellfamily.com/what-are-motor-skills-3107058
+* Fine and Gross Moto Skills in Children: https://www.verywellfamily.com/what-are-motor-skills-3107058
 
 </details>
 
@@ -375,7 +381,7 @@ As we discovered the mistakes in our dataset very late (begin/middle of december
 <details>
   <summary>Reflection on own learning objectives</summary>
   <br/>
-  In this study I wanted to get to know to machine learning and learn the basics in machine learning. As well as see if this might be a direction of work for me in the future. In the beginning there was very much information and an information overload for me which made it hard for me to understand how machine learning works. That's why I choose to read the book "Hands-on Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build Intelligent Systems". At the beginning it didn't help much as there was still a information overload. But after trying some things in our group project I understood more and more. Adding to this I asked a friend of mine who already worked with machine learning which helped a lot. The outcome of this all was that I understood machine learning more and more which lead to an ever changing project code and approach. In the end it all clicked and makes sense. I understand the basics of machine learning now when to do which steps and why doing these steps is important. The information overload was very hard for me in the beginning but as I absorbed more and more information through different sources I learned to use these sources and how to use these sources. 
+  In this study I wanted to get to know to machine learning and learn the basics in machine learning. As well as see if this might be a direction of work for me in the future. In the beginning there was very much information and an information overload for me which made it hard for me to understand how machine learning works. That's why I choose to read the book "Hands-on Machine Learning with Scikit-Learn, Keras, and Tensorflow: Concepts, Tools, and Techniques to Build Intelligent Systems". At the beginning it didn't help much as there was still a information overload. But after trying some things in our group project I understood more and more. Adding to this I asked a friend of mine who already worked with machine learning which helped a lot. The outcome of this all was that I understood machine learning more and more which lead to an ever changing project code and approach. In the end it all clicked and makes sense. I understand the basics of machine learning now when to do which steps and why doing these steps is important. The information overload was very hard for me in the beginning but as I absorbed more and more information through different sources I learned to use these sources and how to use them. 
 
 Another learning objective for me was the project planning. As I never had an interdisciplinary study/course with people not from programming in general I never knew how to work in a "work environment" and how to explain functions to not developers. Therefore one of my tasks was to explain functions or developing in general more clearly to not developers. I did this and asked the person afterwards what they think I meant. Also what they think the outcome will look like and compared this to my thoughts/results from these questions. If they aligned I could assume that they understood what I meant. Sometimes the developers understood my points but the non developers didn't and they looked confused after my explanations. After this I noticed that my thoughts are very specific and that it was hard to explain things easy and short. That's how I learned to express myself more precise and simpler. As well as trying to understand the thinking process of other non developers more. I learned also that I sometimes assume things which shouldn't be assumed and that I needed to ask myself and the other members more questions. 
 <hr>
