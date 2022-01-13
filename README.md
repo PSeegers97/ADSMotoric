@@ -1,10 +1,11 @@
 # Minor Applied Data Science
-Student: Pascal Seegers
-Student number: 21132844
+Student: Pascal Seegers <br>
+Student number: 21132844 <br>
 Lecturer: 
 * Jeroen Vuurens
 * Tony Andrioli
 * Ruud Vermeij
+<br>
 This is the personal portfolio for the minor Applied Data Science at The Hague University made by Pascal Seegers.
 
 
