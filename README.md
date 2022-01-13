@@ -232,16 +232,17 @@ For a first understanding of the t0 data there were different ways to properly u
 <br>
 
 
-In figure 4 it can be seen that there is a correlation between these two feature. This can be ignored as the MQ-score gets calculated by these two. 
+In figure 4 it can be seen that there is a correlation between these two feature. This can be ignored as the MQ-score gets calculated by these two features. 
 
 
 <h4>Insights</h4>
-Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been found that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which is understandable as this feature only states the consent on data acquiration (NOT A GOOD SENTENCE).
+Another step to understand the t0 data was to print all summaries in the notebook. The pandas functions info(), head(), shape, size, describe() and the sum of nan values for columns have been used. The info function shows clearly that there are columns which have holes or how big these holes are and also that some columns which should be numbers are objects. In further research it has been found out that the perceived motor competence scores are objects instead of numeric values. This is because these columns also contain strings that might be because of errors in testing. E.g. in the column "1. Rennen" there was a "x" in one row which might be because this child doesn't want to answer this question. There is another example the columns "Opmerkingen", "Opmerkingen.1" and "Unnamed: 33" can be dropped as they have more than 1000 empty rows. With the describe function it has been discovered that a few columns don't have that much variety e.g. the column "IC" has a min of 1 and a max of 1 which makes sense as this feature only states the consent on data acquiration.
+
 
 
 [The Insights can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 
-<i><small>Table 1: Small insights in all collected data</small></i>
+<i><small>Table 6: Small insights in all collected data</small></i>
 
 |  Dataframe |  Size |  Shape |
 |---|---|---|
@@ -254,13 +255,15 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 |  CBS income |  25032 rows, 22 columns |  55074 |
 |  CBS migration background |  512576 rows, 7 columns |  3595032 |
 
+
+<br>
   <figure style="text-align: center">
-      <img src="/images/Visualizations/MSNO/t0_msno.png" alt="Missing values in raw dataset (t0)" width="500">
+      <img src="/images/Visualizations/MSNO/t0_msno.jpg" alt="Missing values in raw dataset (t0)" width="500">
       <br/><br/>
     <figcaption><i><small>Fig. 5: Missingno plot of raw T0 data</small></i></figcaption>
   </figure>
 
-
+<br>
 <h3>Data preparation & cleaning </h3>
 
 
@@ -292,8 +295,6 @@ For encoding of the categorical features the LabelEncoder has been used.
   <br/>
 Features with a no variance have been dropped as they won't have an impact on the model and would lead to overfitting. In this study two different approaches were done one was done with a RandomForestClassififer and the other one was done by using the function SelectKBest from Sklearn.feature_selection. I did the SelectKBest version with chi^2 and selected the 5 best features. I choose the 5 best as after experimenting with a higher `k` we got a bigger overfitting problem. We can't use less than 5 features as the feature selection would only select the features which are needed to calculate the MQ-Category.
 
-
-<img src="https://latex.codecogs.com/gif.image?\dpi{110}&space;\bg_white&space;{\chi}^2&space;" title="\bg_white {\chi}^2 " />
 
 <h4>Merging</h4>
   <br/>
@@ -349,7 +350,16 @@ To find some similarities in the t0 dataset dimensionality reduction using the t
 
 [Here are the plots with different t-SNE parameters.](/Notebooks/Visualizations/t-SNE_visualizations.ipynb) 
 
-After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered. 
+After viewing them it has been discovered that there is no real cluster in the t-SNE therefore no pattern has been discovered (figure 6).
+<br>
+  <figure style="text-align: center">
+      <img src="/images/Visualizations/tsne-age.png" alt="t-SNE plot of t0 data with dots colored based on age" width="500">
+      <br/><br/>
+    <figcaption><i><small>Fig. 6: t-SNE plot of t0 data with dots colored based on age</small></i></figcaption>
+  </figure>
+
+
+
 
 
 <hr>
@@ -433,12 +443,12 @@ Another learning objective for me was the project planning. As I never had an in
 </details>
 
 <details>
-  <summary>Evaluation on the group project as a whole (NEEDS IMPROVEMENT)</summary>
+  <summary>Evaluation on the group project as a whole</summary>
   <br/>
   The group in general was a good group although we weren't all developers. That led to the fact that we sometimes got stuck. One problem was that we had to explain in detail what our steps were and what some code snippet does. Another point is that non-developers tried to do very hard tasks e.g. data preparation which led to a "wrong" dataset as this wasn't tested neither by other group members nor by me. So after we discovered that there were mistakes we had to begin at the start again. Now I know that I should test more and that cross-testing is mandatory for hard tasks. Also that clear and precise communication is the key to a good group project. (not finished)
 
 All in all was it a good group project as we had a good problem management and discussed many things in our group. When somebody had a problem we asked each other if somebody has a solution or could help and pair program. Therefore we could solve almost all problems and if it took too much time we did it separately and tried to absorb as much information as possible. In the end somebody always had a solution for our problem. 
-During this I learned that pair programming sometimes leads to good solutions and aren't a time waste as I always thought. Also I learned that the easiest way in my mind isn't always the easiest way. Some times I thought too difficult (Ist das ein Satz?)
+During this I learned that pair programming sometimes leads to good solutions and aren't a time waste as I always thought. Also I learned that the easiest way in my mind isn't always the easiest way. Some times my thinking process was too complicated.
 And I also learned that my thinking is way to me focused as I sometimes assumed other people understand developing very well because it is "easier" for me. Which led me to be a calmer person as well as managing with other opinions better. I improved in the sense that I don't take many things for granted and that a interdisciplinary group opens my mind more as I notice that people from other studies give arguments I never thought of but are after they said it very strong arguments which make sense and help me understand problems/topics more.
 </details>
 
