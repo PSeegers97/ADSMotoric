@@ -443,7 +443,7 @@ Another learning objective for me was the project planning. As I never had an in
 </details>
 
 <details>
-  <summary>Evaluation on the group project as a whole (NEEDS IMPROVEMENT)</summary>
+  <summary>Evaluation on the group project as a whole</summary>
   <br/>
   The group in general was a good group although we weren't all developers. That led to the fact that we sometimes got stuck. One problem was that we had to explain in detail what our steps were and what some code snippet does. Another point is that non-developers tried to do very hard tasks e.g. data preparation which led to a "wrong" dataset as this wasn't tested neither by other group members nor by me. So after we discovered that there were mistakes we had to begin at the start again. Now I know that I should test more and that cross-testing is mandatory for hard tasks. Also that clear and precise communication is the key to a good group project. (not finished)
 
