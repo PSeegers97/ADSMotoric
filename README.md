@@ -242,7 +242,7 @@ Another step to understand the t0 data was to print all summaries in the noteboo
 
 [The Insights can be found here.](Notebooks/Data-Preprocessing/Data_Preprocessing.ipynb)
 
-<i><small>Table 1: Small insights in all collected data</small></i>
+<i><small>Table 6: Small insights in all collected data</small></i>
 
 |  Dataframe |  Size |  Shape |
 |---|---|---|
