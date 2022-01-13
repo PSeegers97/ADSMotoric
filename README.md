@@ -147,6 +147,10 @@ In our project we decided to use an agile method for developing namely Scrum. Bu
     <br/>
     <figcaption><i><small>Fig. 2: Scrum board completed tasks</small></i></figcaption>
   </figure>
+
+  [Link to Microsoft Planner (Scrum board)](https://tasks.office.com/DeHaagseHogeschool.onmicrosoft.com/Home/PlanViews/9Jb-xUUDp0Gu_F2YlVNn2ZYAAPLf?Type=PlanLink&Channel=Link&CreatedTime=637776783096820000)
+
+  
 </details>
 <ul>
 
