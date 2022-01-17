@@ -339,7 +339,7 @@ One approach is the imputation using the mean of the features, another one is us
 After experimenting a bit with the kNNImputer I decided to set the `nearest_neighbors` to 6 as other values don't improve much in our model. 
 
 
-For overfitting prevention there are also two different "tasks". The first one is a binary classification problem (ADD MQ BINARY TO MERGING) and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
+For overfitting prevention there are also two different "tasks". The first one is a binary classification problem and the second one is a multilabel classification problem this has been done by converting the multiclass column MQ category into a multilabel column using the LabelBinarizer from Sklearn.preprocessing. 
 
 
 <h3>Data explanation</h3>
